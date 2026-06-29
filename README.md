@@ -97,6 +97,6 @@ Each project includes:
 
 ## 📬 Contact
 
-- Email: ajaym@gmail.com  
+- Email: SajayN@gmail.com  
 - LinkedIn: https://www.linkedin.com/in/sajayn  
 - GitHub: https://github.com/sajayn/sajayn-data-analyst-portfolio
