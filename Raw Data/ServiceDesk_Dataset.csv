@@ -1,0 +1,1001 @@
+TicketID,CreatedDate,ResolvedDate,Priority,Category,SubCategory,Department,Region,Agent,Status,ResolutionHours,SLAHours,SLA_Breached,CustomerSatisfaction,Escalated,Reopened,CostUSD,Channel
+T00001,2025-11-24,2025-11-24,Low,Hardware,Monitor Issue,Operations,EMEA,John Smith,Closed,8,8,No,4,No,No,70.44,Phone
+T00002,2025-04-30,2025-05-01,Medium,Software,Application Crash,Operations,EMEA,Emma Davis,Closed,27,16,Yes,3,No,No,645.57,Email
+T00003,2025-03-23,2025-03-24,Medium,Hardware,Laptop Performance,HR,APAC,Alex Brown,Closed,25,16,Yes,3,No,Yes,442.31,Portal
+T00004,2025-11-06,2025-11-06,Low,Software,Office 365 Error,IT,APAC,David Kumar,Closed,15,8,Yes,2,No,No,353.83,Email
+T00005,2025-01-24,2025-01-25,Medium,Hardware,Printer Issue,Sales,EMEA,Priya Nair,Closed,24,16,Yes,4,No,Yes,431.88,Phone
+T00006,2025-12-10,2025-12-10,Low,Software,Application Crash,Operations,Americas,Emma Davis,Closed,1,8,No,5,No,No,12.41,Chat
+T00007,2025-05-19,2025-05-19,Critical,Cloud,AWS Storage Failure,Finance,APAC,Priya Nair,Closed,6,12,No,4,No,No,91.37,Phone
+T00008,2025-10-18,2025-10-18,High,Hardware,Monitor Issue,IT,Americas,Sophia Wilson,Closed,1,24,No,5,Yes,No,15.15,Phone
+T00009,2025-10-15,2025-10-15,Medium,Cloud,Kubernetes Failure,Finance,Americas,Sophia Wilson,Closed,20,16,Yes,3,No,Yes,568.12,Email
+T00010,2025-03-20,2025-03-20,Medium,Security,Phishing Email,IT,Americas,Sophia Wilson,Closed,9,16,No,5,No,No,200.57,Email
+T00011,2025-12-15,2025-12-15,High,Cloud,Database Outage,IT,APAC,Sophia Wilson,Closed,22,24,No,5,Yes,No,742.57,Portal
+T00012,2025-09-14,2025-09-14,High,Cloud,Azure VM Failure,Operations,Americas,Emma Davis,Closed,10,24,No,5,Yes,No,180.96,Phone
+T00013,2025-10-04,2025-10-04,Critical,Cloud,Azure VM Failure,Sales,EMEA,Emma Davis,Closed,5,12,No,4,Yes,No,72.52,Email
+T00014,2025-02-13,2025-02-13,High,Software,Application Crash,Finance,Americas,Sophia Wilson,Closed,13,24,No,5,Yes,No,197.03,Chat
+T00015,2025-04-19,2025-04-19,Critical,Network,DNS Issue,IT,Americas,Sophia Wilson,Closed,3,12,No,5,Yes,No,44.08,Email
+T00016,2025-06-23,2025-06-23,Low,Cloud,AWS Storage Failure,HR,APAC,John Smith,Closed,10,8,Yes,3,No,Yes,98.2,Email
+T00017,2025-06-19,2025-06-19,Low,Network,DNS Issue,Operations,Americas,Sophia Wilson,Closed,5,8,No,5,No,No,72.8,Chat
+T00018,2025-07-28,2025-07-28,Low,Software,Office 365 Error,IT,EMEA,Sophia Wilson,Closed,4,8,No,5,No,No,125.29,Email
+T00019,2025-12-11,2025-12-11,Medium,Software,Password Reset,Finance,APAC,Emma Davis,Closed,8,16,No,4,No,No,179.84,Phone
+T00020,2025-08-05,2025-08-05,Low,Security,Unauthorized Access,IT,Americas,Sarah Lee,Closed,9,8,Yes,2,No,Yes,230.47,Email
+T00021,2025-02-17,2025-02-17,Critical,Network,WiFi Outage,HR,APAC,Alex Brown,Closed,5,12,No,5,Yes,No,173.02,Portal
+T00022,2025-08-21,2025-08-21,Low,Cloud,Kubernetes Failure,Finance,EMEA,Emma Davis,Closed,9,8,Yes,3,No,Yes,212.74,Email
+T00023,2025-06-10,2025-06-10,Low,Cloud,Kubernetes Failure,HR,Americas,Sarah Lee,Closed,1,8,No,5,No,No,30.99,Email
+T00024,2025-11-01,2025-11-01,Low,Network,Firewall Issue,Operations,APAC,John Smith,Closed,7,8,No,4,No,No,173.06,Chat
+T00025,2025-12-03,2025-12-03,Medium,Cloud,Database Outage,Finance,EMEA,Alex Brown,Closed,19,16,Yes,3,No,Yes,496.58,Portal
+T00026,2025-08-23,2025-08-23,Low,Software,Password Reset,Operations,Americas,Sarah Lee,Closed,6,8,No,5,No,No,59.87,Phone
+T00027,2025-09-17,2025-09-17,Low,Hardware,Printer Issue,IT,Americas,David Kumar,Closed,9,8,Yes,3,No,Yes,234.29,Portal
+T00028,2025-12-06,2025-12-06,Low,Network,DNS Issue,HR,Americas,Michael Chen,Closed,4,8,No,4,No,No,61.41,Phone
+T00029,2025-06-25,2025-06-25,Low,Hardware,Docking Station,HR,Americas,Alex Brown,Closed,1,8,No,4,No,No,30.39,Email
+T00030,2025-01-02,2025-01-02,Low,Network,DNS Issue,IT,Americas,Alex Brown,Closed,7,8,No,5,No,No,162.01,Email
+T00031,2025-02-08,2025-02-08,Critical,Network,VPN Issue,IT,APAC,John Smith,Closed,14,12,Yes,3,No,No,451.82,Email
+T00032,2025-07-03,2025-07-03,Low,Network,VPN Issue,Operations,EMEA,Michael Chen,Closed,2,8,No,5,No,No,65.99,Phone
+T00033,2025-03-25,2025-03-25,Critical,Network,Firewall Issue,IT,Americas,Emma Davis,Closed,20,12,Yes,3,No,Yes,585.18,Email
+T00034,2025-07-15,2025-07-16,High,Security,Unauthorized Access,IT,EMEA,David Kumar,Closed,24,24,No,5,Yes,No,336.45,Phone
+T00035,2025-07-24,2025-07-24,Low,Software,CRM Error,HR,APAC,David Kumar,Closed,4,8,No,5,No,No,51.29,Portal
+T00036,2025-01-20,2025-01-20,Low,Security,Malware Alert,IT,Americas,Sarah Lee,Closed,11,8,Yes,3,No,No,355.15,Phone
+T00037,2025-05-11,2025-05-11,Low,Security,Phishing Email,Sales,EMEA,Sarah Lee,Closed,1,8,No,5,No,No,33.62,Portal
+T00038,2025-11-16,2025-11-16,Low,Software,CRM Error,IT,EMEA,Alex Brown,Closed,6,8,No,5,No,No,160.95,Phone
+T00039,2025-04-09,2025-04-09,Medium,Security,Unauthorized Access,Sales,EMEA,Emma Davis,Closed,9,16,No,4,No,No,176.46,Portal
+T00040,2025-08-27,2025-08-27,Medium,Network,Firewall Issue,HR,EMEA,Priya Nair,Closed,9,16,No,5,No,No,94.69,Phone
+T00041,2025-12-11,2025-12-11,Low,Network,WiFi Outage,Operations,APAC,Sophia Wilson,Closed,10,8,Yes,4,No,No,319.26,Phone
+T00042,2025-12-23,2025-12-23,Medium,Security,Unauthorized Access,HR,APAC,Alex Brown,Closed,15,16,No,5,No,No,208.63,Chat
+T00043,2025-01-26,2025-01-26,Medium,Software,Office 365 Error,IT,Americas,Alex Brown,Closed,20,16,Yes,3,No,No,644.49,Chat
+T00044,2025-08-19,2025-08-19,Low,Network,DNS Issue,Finance,EMEA,Sophia Wilson,Closed,10,8,Yes,4,No,Yes,272.66,Phone
+T00045,2025-05-20,2025-05-20,Low,Cloud,Azure VM Failure,Finance,APAC,Alex Brown,Closed,9,8,Yes,3,No,No,152.4,Chat
+T00046,2025-08-01,2025-08-01,Low,Security,Data Leakage Alert,Operations,EMEA,Sophia Wilson,Closed,9,8,Yes,2,No,Yes,301.09,Portal
+T00047,2025-07-19,2025-07-19,High,Security,Unauthorized Access,HR,EMEA,Priya Nair,Closed,12,24,No,5,No,No,330.63,Chat
+T00048,2025-03-07,2025-03-07,Critical,Cloud,Azure VM Failure,Operations,Americas,John Smith,Closed,11,12,No,5,Yes,No,278.9,Phone
+T00049,2025-08-25,2025-08-25,Low,Hardware,Keyboard Issue,IT,EMEA,Alex Brown,Closed,5,8,No,5,No,No,74.06,Email
+T00050,2025-08-29,2025-08-29,Low,Cloud,Azure VM Failure,Finance,Americas,Sarah Lee,Closed,11,8,Yes,3,No,Yes,312.01,Phone
+T00051,2025-04-13,2025-04-13,High,Cloud,AWS Storage Failure,Operations,APAC,Sophia Wilson,Closed,22,24,No,4,No,No,631.54,Phone
+T00052,2025-11-07,2025-11-07,Medium,Software,Teams Login Error,HR,Americas,John Smith,Closed,23,16,Yes,3,No,No,541.57,Chat
+T00053,2025-07-23,2025-07-23,Critical,Network,VPN Issue,HR,Americas,David Kumar,Closed,1,12,No,5,Yes,No,29.5,Email
+T00054,2025-06-27,2025-06-27,Medium,Hardware,Printer Issue,HR,EMEA,Sophia Wilson,Closed,6,16,No,5,No,No,65.1,Portal
+T00055,2025-11-22,2025-11-22,High,Security,Unauthorized Access,Operations,Americas,Sophia Wilson,Closed,3,24,No,5,No,No,59.28,Portal
+T00056,2025-06-15,2025-06-16,High,Software,CRM Error,Finance,EMEA,Alex Brown,Closed,29,24,Yes,4,No,Yes,619.04,Portal
+T00057,2025-04-04,2025-04-04,Medium,Hardware,Laptop Performance,Operations,APAC,Emma Davis,Closed,5,16,No,5,No,No,51.56,Chat
+T00058,2025-09-08,2025-09-09,Medium,Network,Firewall Issue,IT,APAC,Sarah Lee,Closed,28,16,Yes,4,No,No,391.53,Phone
+T00059,2025-06-06,2025-06-06,Medium,Hardware,Keyboard Issue,Sales,Americas,Sophia Wilson,Closed,7,16,No,5,No,No,107.2,Portal
+T00060,2025-04-29,2025-04-29,Low,Network,DNS Issue,Operations,Americas,Michael Chen,Closed,5,8,No,4,No,No,65.86,Chat
+T00061,2025-05-22,2025-05-23,High,Cloud,Database Outage,Finance,EMEA,Michael Chen,Closed,44,24,Yes,3,No,Yes,1193.13,Phone
+T00062,2025-05-21,2025-05-21,Low,Software,Application Crash,Finance,Americas,Sophia Wilson,Closed,6,8,No,5,No,No,64.62,Email
+T00063,2025-10-21,2025-10-21,Low,Security,Data Leakage Alert,IT,APAC,Sarah Lee,Closed,1,8,No,5,No,No,18.82,Email
+T00064,2025-10-23,2025-10-24,Medium,Software,Teams Login Error,Operations,EMEA,Sarah Lee,Closed,31,16,Yes,3,No,Yes,347.14,Chat
+T00065,2025-11-07,2025-11-07,Medium,Cloud,AWS Storage Failure,Sales,Americas,Alex Brown,Closed,15,16,No,5,No,No,243.68,Email
+T00066,2025-11-09,2025-11-09,Critical,Software,Teams Login Error,Sales,Americas,Sarah Lee,Closed,5,12,No,5,Yes,No,72.38,Email
+T00067,2025-03-22,2025-03-22,Low,Security,Data Leakage Alert,IT,APAC,Emma Davis,Closed,6,8,No,5,No,No,197.67,Phone
+T00068,2025-08-06,2025-08-06,Low,Network,WiFi Outage,Finance,APAC,John Smith,Closed,10,8,Yes,3,No,Yes,294.01,Portal
+T00069,2025-08-13,2025-08-13,Low,Hardware,Keyboard Issue,IT,APAC,John Smith,Closed,11,8,Yes,4,No,No,306.16,Portal
+T00070,2025-01-14,2025-01-14,Low,Cloud,Azure VM Failure,Operations,APAC,Michael Chen,Closed,5,8,No,5,No,No,103.52,Chat
+T00071,2025-05-23,2025-05-23,Low,Cloud,Kubernetes Failure,IT,EMEA,Alex Brown,Closed,4,8,No,4,No,No,68.0,Email
+T00072,2025-03-24,2025-03-24,Low,Security,Malware Alert,Operations,APAC,Sophia Wilson,Closed,3,8,No,5,No,No,31.13,Portal
+T00073,2025-06-15,2025-06-15,Low,Security,Phishing Email,HR,APAC,Priya Nair,Closed,4,8,No,5,No,No,99.24,Chat
+T00074,2025-11-17,2025-11-17,Medium,Software,Teams Login Error,Operations,APAC,David Kumar,Closed,6,16,No,5,No,No,118.97,Chat
+T00075,2025-03-04,2025-03-04,Low,Cloud,AWS Storage Failure,Operations,EMEA,Sarah Lee,Closed,6,8,No,4,No,No,84.4,Email
+T00076,2025-08-25,2025-08-25,Critical,Network,Firewall Issue,Operations,Americas,David Kumar,Closed,5,12,No,5,No,No,152.69,Chat
+T00077,2025-05-05,2025-05-05,Medium,Network,Firewall Issue,HR,EMEA,Alex Brown,Closed,18,16,Yes,3,No,No,598.04,Portal
+T00078,2025-01-02,2025-01-02,Low,Hardware,Docking Station,Finance,EMEA,Sophia Wilson,Closed,12,8,Yes,4,No,No,203.71,Chat
+T00079,2025-08-22,2025-08-22,Critical,Network,WiFi Outage,HR,EMEA,Sophia Wilson,Closed,6,12,No,5,No,No,110.54,Phone
+T00080,2025-09-11,2025-09-11,Critical,Network,DNS Issue,IT,APAC,Sophia Wilson,Closed,8,12,No,4,Yes,No,220.05,Chat
+T00081,2025-12-02,2025-12-02,Critical,Software,Office 365 Error,HR,EMEA,Alex Brown,Closed,11,12,No,5,No,No,274.16,Chat
+T00082,2025-10-05,2025-10-05,Low,Software,Teams Login Error,Finance,Americas,Sarah Lee,Closed,4,8,No,5,No,No,78.87,Email
+T00083,2025-11-21,2025-11-22,High,Software,Office 365 Error,HR,EMEA,John Smith,Closed,26,24,Yes,2,No,No,471.14,Phone
+T00084,2025-05-06,2025-05-06,Medium,Cloud,AWS Storage Failure,Finance,APAC,Alex Brown,Closed,20,16,Yes,3,No,Yes,428.74,Phone
+T00085,2025-04-29,2025-04-29,Medium,Hardware,Keyboard Issue,Sales,Americas,Michael Chen,Closed,14,16,No,5,No,No,139.92,Portal
+T00086,2025-10-28,2025-10-28,Low,Security,Malware Alert,Sales,APAC,Alex Brown,Closed,7,8,No,5,No,No,217.28,Email
+T00087,2025-05-02,2025-05-02,Medium,Hardware,Docking Station,IT,EMEA,John Smith,Closed,10,16,No,4,No,No,232.8,Email
+T00088,2025-11-07,2025-11-08,High,Hardware,Monitor Issue,Finance,Americas,Emma Davis,Closed,39,24,Yes,3,No,Yes,973.55,Email
+T00089,2025-06-08,2025-06-08,High,Software,Application Crash,Sales,Americas,Alex Brown,Closed,17,24,No,5,Yes,No,228.16,Portal
+T00090,2025-09-29,2025-09-29,Medium,Hardware,Monitor Issue,IT,EMEA,Priya Nair,Closed,17,16,Yes,3,No,Yes,350.96,Email
+T00091,2025-03-14,2025-03-15,High,Network,Firewall Issue,HR,EMEA,John Smith,Closed,42,24,Yes,3,No,Yes,851.73,Portal
+T00092,2025-10-27,2025-10-27,Medium,Hardware,Printer Issue,IT,APAC,Priya Nair,Closed,11,16,No,5,No,No,359.83,Phone
+T00093,2025-11-28,2025-11-28,Low,Security,Malware Alert,HR,EMEA,Sophia Wilson,Closed,6,8,No,4,No,No,66.81,Phone
+T00094,2025-10-03,2025-10-03,Low,Security,Malware Alert,Operations,Americas,Michael Chen,Closed,5,8,No,5,No,No,159.53,Email
+T00095,2025-09-08,2025-09-08,Medium,Hardware,Printer Issue,Finance,EMEA,Sarah Lee,Closed,12,16,No,5,No,No,413.82,Portal
+T00096,2025-10-06,2025-10-06,Critical,Hardware,Printer Issue,Sales,APAC,Sarah Lee,Closed,6,12,No,5,No,No,62.85,Phone
+T00097,2025-11-25,2025-11-25,Medium,Software,Password Reset,Operations,APAC,Sarah Lee,Closed,15,16,No,5,No,No,456.08,Phone
+T00098,2025-10-28,2025-10-28,Low,Network,DNS Issue,Operations,APAC,David Kumar,Closed,4,8,No,5,No,No,124.71,Phone
+T00099,2025-03-08,2025-03-08,Medium,Network,VPN Issue,Sales,APAC,Priya Nair,Closed,13,16,No,4,No,No,109.54,Portal
+T00100,2025-01-27,2025-01-27,Low,Security,Phishing Email,IT,EMEA,Priya Nair,Closed,6,8,No,4,No,No,131.14,Email
+T00101,2025-08-20,2025-08-20,Medium,Cloud,Azure VM Failure,IT,Americas,John Smith,Closed,11,16,No,5,No,No,106.07,Chat
+T00102,2025-07-25,2025-07-25,Medium,Software,Office 365 Error,HR,APAC,Priya Nair,Closed,1,16,No,5,No,No,24.42,Email
+T00103,2025-03-06,2025-03-06,Low,Cloud,Database Outage,IT,Americas,Alex Brown,Closed,3,8,No,5,No,No,32.03,Email
+T00104,2025-12-02,2025-12-02,Medium,Cloud,AWS Storage Failure,IT,APAC,Alex Brown,Closed,21,16,Yes,4,No,No,637.15,Chat
+T00105,2025-08-01,2025-08-01,High,Hardware,Keyboard Issue,IT,APAC,Sarah Lee,Closed,18,24,No,5,Yes,No,189.31,Email
+T00106,2025-07-10,2025-07-11,High,Cloud,Azure VM Failure,HR,EMEA,Priya Nair,Closed,30,24,Yes,3,No,Yes,1024.4,Portal
+T00107,2025-06-30,2025-06-30,Low,Cloud,AWS Storage Failure,Sales,Americas,Priya Nair,Closed,9,8,Yes,2,No,Yes,257.31,Phone
+T00108,2025-08-08,2025-08-09,High,Cloud,Azure VM Failure,HR,APAC,David Kumar,Closed,32,24,Yes,3,No,No,559.28,Phone
+T00109,2025-03-15,2025-03-15,Medium,Security,Phishing Email,HR,Americas,Emma Davis,Closed,21,16,Yes,2,No,No,406.05,Portal
+T00110,2025-03-22,2025-03-22,Medium,Hardware,Docking Station,HR,APAC,Michael Chen,Closed,23,16,Yes,2,No,Yes,602.53,Portal
+T00111,2025-08-15,2025-08-15,Medium,Security,Data Leakage Alert,Sales,EMEA,Sarah Lee,Closed,9,16,No,4,No,No,140.83,Chat
+T00112,2025-09-27,2025-09-27,Medium,Software,Teams Login Error,Operations,APAC,John Smith,Closed,17,16,Yes,4,No,Yes,274.35,Phone
+T00113,2025-03-12,2025-03-13,High,Hardware,Laptop Performance,Finance,APAC,Alex Brown,Closed,31,24,Yes,4,Yes,No,308.33,Email
+T00114,2025-08-12,2025-08-12,Low,Software,CRM Error,Operations,EMEA,Alex Brown,Closed,10,8,Yes,4,No,No,111.1,Email
+T00115,2025-06-16,2025-06-16,Low,Cloud,Kubernetes Failure,IT,APAC,Emma Davis,Closed,11,8,Yes,2,No,No,262.89,Email
+T00116,2025-07-22,2025-07-22,High,Hardware,Monitor Issue,Finance,APAC,Sarah Lee,Closed,1,24,No,5,Yes,No,32.46,Portal
+T00117,2025-06-29,2025-06-30,High,Network,WiFi Outage,Operations,APAC,Sarah Lee,Closed,28,24,Yes,3,Yes,No,574.75,Chat
+T00118,2025-12-15,2025-12-15,Critical,Cloud,Database Outage,Finance,EMEA,Sarah Lee,Closed,13,12,Yes,3,No,No,325.62,Portal
+T00119,2025-10-30,2025-10-30,Low,Cloud,Azure VM Failure,Sales,EMEA,Sarah Lee,Closed,5,8,No,4,No,No,127.03,Email
+T00120,2025-11-11,2025-11-11,Medium,Security,Data Leakage Alert,IT,Americas,Emma Davis,Closed,22,16,Yes,2,No,No,535.37,Phone
+T00121,2025-02-01,2025-02-01,Medium,Hardware,Printer Issue,IT,EMEA,Michael Chen,Closed,9,16,No,5,No,No,160.43,Portal
+T00122,2025-07-18,2025-07-18,Medium,Hardware,Docking Station,Sales,APAC,Priya Nair,Closed,14,16,No,4,No,No,147.72,Chat
+T00123,2025-05-26,2025-05-26,Low,Cloud,AWS Storage Failure,Sales,EMEA,Alex Brown,Closed,4,8,No,5,No,No,45.93,Email
+T00124,2025-06-08,2025-06-08,Medium,Hardware,Monitor Issue,IT,Americas,Priya Nair,Closed,23,16,Yes,2,No,Yes,409.17,Phone
+T00125,2025-04-20,2025-04-20,Low,Security,Unauthorized Access,Sales,APAC,John Smith,Closed,7,8,No,4,No,No,181.1,Phone
+T00126,2025-11-02,2025-11-02,Medium,Network,WiFi Outage,IT,APAC,Alex Brown,Closed,18,16,Yes,3,No,No,472.71,Phone
+T00127,2025-08-16,2025-08-16,Medium,Security,Unauthorized Access,Finance,EMEA,Sophia Wilson,Closed,7,16,No,5,No,No,143.26,Portal
+T00128,2025-07-15,2025-07-15,Medium,Security,Unauthorized Access,Operations,APAC,David Kumar,Closed,12,16,No,5,No,No,112.91,Chat
+T00129,2025-07-10,2025-07-10,Medium,Software,Application Crash,Sales,EMEA,Michael Chen,Closed,18,16,Yes,3,No,No,188.57,Phone
+T00130,2025-08-19,2025-08-19,High,Software,Office 365 Error,IT,Americas,Priya Nair,Closed,13,24,No,4,Yes,No,239.54,Email
+T00131,2025-07-11,2025-07-11,Low,Hardware,Printer Issue,Finance,APAC,David Kumar,Closed,10,8,Yes,3,No,No,267.94,Phone
+T00132,2025-12-28,2025-12-28,Medium,Cloud,Azure VM Failure,HR,EMEA,Emma Davis,Closed,4,16,No,4,No,No,122.18,Chat
+T00133,2025-02-26,2025-02-27,High,Network,DNS Issue,HR,APAC,Sophia Wilson,Closed,27,24,Yes,4,Yes,Yes,739.82,Portal
+T00134,2025-08-08,2025-08-08,Low,Hardware,Monitor Issue,Finance,Americas,Sarah Lee,Closed,9,8,Yes,4,No,No,88.45,Email
+T00135,2025-07-19,2025-07-20,High,Software,Office 365 Error,Sales,APAC,Priya Nair,Closed,30,24,Yes,2,Yes,Yes,864.92,Portal
+T00136,2025-03-10,2025-03-10,Low,Cloud,Database Outage,IT,Americas,Sophia Wilson,Closed,6,8,No,5,No,No,150.34,Phone
+T00137,2025-02-02,2025-02-02,High,Security,Phishing Email,HR,EMEA,David Kumar,Closed,20,24,No,5,No,No,694.13,Chat
+T00138,2025-05-10,2025-05-10,Low,Network,DNS Issue,HR,Americas,Priya Nair,Closed,8,8,No,5,No,No,123.01,Portal
+T00139,2025-08-12,2025-08-12,High,Security,Data Leakage Alert,Sales,Americas,David Kumar,Closed,17,24,No,5,Yes,No,469.73,Email
+T00140,2025-08-09,2025-08-09,Medium,Network,DNS Issue,HR,APAC,Priya Nair,Closed,18,16,Yes,3,No,No,292.96,Chat
+T00141,2025-03-27,2025-03-28,Medium,Hardware,Keyboard Issue,Operations,EMEA,David Kumar,Closed,29,16,Yes,3,No,Yes,290.76,Chat
+T00142,2025-07-06,2025-07-06,Medium,Network,VPN Issue,Operations,Americas,Sophia Wilson,Closed,18,16,Yes,3,No,Yes,205.35,Phone
+T00143,2025-11-27,2025-11-27,Medium,Security,Phishing Email,Sales,EMEA,Sarah Lee,Closed,4,16,No,5,No,No,93.98,Portal
+T00144,2025-07-23,2025-07-23,Low,Hardware,Monitor Issue,HR,Americas,Michael Chen,Closed,3,8,No,4,No,No,64.42,Chat
+T00145,2025-10-15,2025-10-15,Low,Hardware,Keyboard Issue,Finance,APAC,Michael Chen,Closed,8,8,No,5,No,No,248.21,Chat
+T00146,2025-03-30,2025-03-31,High,Security,Phishing Email,Sales,Americas,Sarah Lee,Closed,37,24,Yes,3,No,No,1146.51,Phone
+T00147,2025-07-05,2025-07-05,Medium,Software,Teams Login Error,HR,EMEA,Priya Nair,Closed,15,16,No,5,No,No,309.3,Phone
+T00148,2025-11-10,2025-11-10,High,Software,CRM Error,IT,Americas,Alex Brown,Closed,13,24,No,5,No,No,392.99,Email
+T00149,2025-03-06,2025-03-06,Critical,Software,Office 365 Error,Operations,Americas,Michael Chen,Closed,3,12,No,5,Yes,No,59.04,Email
+T00150,2025-03-05,2025-03-05,Medium,Hardware,Monitor Issue,Sales,Americas,Emma Davis,Closed,16,16,No,5,No,No,277.48,Portal
+T00151,2025-02-10,2025-02-10,Low,Cloud,Database Outage,Operations,Americas,Michael Chen,Closed,9,8,Yes,2,No,Yes,113.6,Portal
+T00152,2025-10-16,2025-10-16,Low,Software,Password Reset,Operations,EMEA,Emma Davis,Closed,9,8,Yes,2,No,No,222.2,Email
+T00153,2025-09-12,2025-09-12,High,Cloud,Database Outage,IT,EMEA,Sophia Wilson,Closed,15,24,No,5,Yes,No,398.89,Phone
+T00154,2025-08-14,2025-08-14,Medium,Security,Unauthorized Access,Operations,APAC,Priya Nair,Closed,9,16,No,5,No,No,281.34,Portal
+T00155,2025-06-26,2025-06-26,Critical,Network,DNS Issue,IT,APAC,David Kumar,Closed,7,12,No,5,No,No,102.86,Email
+T00156,2025-01-26,2025-01-26,Low,Security,Data Leakage Alert,Finance,EMEA,Priya Nair,Closed,7,8,No,5,No,No,91.88,Phone
+T00157,2025-09-13,2025-09-13,Critical,Security,Data Leakage Alert,IT,Americas,Sophia Wilson,Closed,15,12,Yes,2,Yes,Yes,356.25,Email
+T00158,2025-01-26,2025-01-26,Low,Cloud,Kubernetes Failure,Operations,APAC,Sarah Lee,Closed,3,8,No,5,No,No,58.91,Portal
+T00159,2025-07-07,2025-07-07,High,Hardware,Printer Issue,Sales,Americas,David Kumar,Closed,8,24,No,5,Yes,No,147.45,Chat
+T00160,2025-10-09,2025-10-09,Low,Cloud,Azure VM Failure,HR,EMEA,Priya Nair,Closed,10,8,Yes,3,No,No,230.61,Portal
+T00161,2025-03-15,2025-03-15,Low,Cloud,Kubernetes Failure,Sales,EMEA,Sophia Wilson,Closed,5,8,No,5,No,No,60.11,Phone
+T00162,2025-06-17,2025-06-17,Critical,Hardware,Monitor Issue,Operations,Americas,David Kumar,Closed,10,12,No,5,No,No,216.98,Chat
+T00163,2025-12-29,2025-12-29,Medium,Security,Phishing Email,Operations,EMEA,John Smith,Closed,6,16,No,5,No,No,144.7,Portal
+T00164,2025-12-02,2025-12-03,High,Cloud,AWS Storage Failure,Operations,EMEA,Michael Chen,Closed,34,24,Yes,2,No,Yes,1026.29,Phone
+T00165,2025-01-17,2025-01-17,Medium,Software,Teams Login Error,IT,Americas,Emma Davis,Closed,21,16,Yes,3,No,No,452.53,Chat
+T00166,2025-02-01,2025-02-01,High,Cloud,AWS Storage Failure,IT,Americas,Alex Brown,Closed,22,24,No,5,No,No,744.27,Chat
+T00167,2025-09-30,2025-09-30,Low,Hardware,Laptop Performance,Sales,Americas,David Kumar,Closed,5,8,No,5,No,No,70.36,Portal
+T00168,2025-05-28,2025-05-28,High,Security,Malware Alert,Sales,Americas,David Kumar,Closed,16,24,No,5,No,No,180.65,Chat
+T00169,2025-07-22,2025-07-24,High,Network,DNS Issue,Sales,EMEA,David Kumar,Closed,50,24,Yes,2,No,Yes,672.79,Portal
+T00170,2025-10-15,2025-10-15,Medium,Network,VPN Issue,Finance,APAC,Emma Davis,Closed,19,16,Yes,3,No,Yes,178.93,Chat
+T00171,2025-06-19,2025-06-20,High,Software,Teams Login Error,IT,Americas,Sophia Wilson,Closed,36,24,Yes,3,No,Yes,1022.75,Portal
+T00172,2025-06-14,2025-06-14,Low,Software,Password Reset,Operations,Americas,John Smith,Closed,7,8,No,5,No,No,228.6,Phone
+T00173,2025-08-02,2025-08-03,High,Network,VPN Issue,Finance,Americas,David Kumar,Closed,33,24,Yes,4,Yes,Yes,529.87,Email
+T00174,2025-06-21,2025-06-21,Low,Cloud,Kubernetes Failure,Operations,EMEA,David Kumar,Closed,7,8,No,5,No,No,92.44,Email
+T00175,2025-06-19,2025-06-19,Low,Security,Malware Alert,Sales,Americas,Emma Davis,Closed,7,8,No,5,No,No,89.17,Chat
+T00176,2025-08-07,2025-08-07,Medium,Software,Office 365 Error,Finance,APAC,Sophia Wilson,Closed,13,16,No,4,No,No,217.58,Phone
+T00177,2025-01-04,2025-01-04,Low,Network,Firewall Issue,Operations,Americas,John Smith,Closed,7,8,No,5,No,No,105.43,Portal
+T00178,2025-12-21,2025-12-21,Low,Software,Office 365 Error,Finance,EMEA,David Kumar,Closed,1,8,No,5,No,No,26.64,Portal
+T00179,2025-07-08,2025-07-08,Medium,Network,WiFi Outage,IT,Americas,Sophia Wilson,Closed,5,16,No,5,No,No,142.24,Phone
+T00180,2025-05-07,2025-05-07,Medium,Cloud,Azure VM Failure,Operations,Americas,Priya Nair,Closed,15,16,No,5,No,No,151.63,Email
+T00181,2025-02-01,2025-02-01,High,Cloud,AWS Storage Failure,Operations,EMEA,Sarah Lee,Closed,15,24,No,5,Yes,No,410.35,Chat
+T00182,2025-02-16,2025-02-16,High,Security,Phishing Email,Finance,Americas,Alex Brown,Closed,18,24,No,5,No,No,418.06,Chat
+T00183,2025-12-11,2025-12-11,High,Software,Office 365 Error,Operations,APAC,John Smith,Closed,21,24,No,5,No,No,363.35,Email
+T00184,2025-10-05,2025-10-05,Critical,Software,Office 365 Error,Sales,EMEA,Michael Chen,Closed,11,12,No,4,Yes,No,315.45,Chat
+T00185,2025-07-11,2025-07-11,Critical,Security,Data Leakage Alert,HR,Americas,Michael Chen,Closed,19,12,Yes,4,No,Yes,243.56,Chat
+T00186,2025-09-28,2025-09-28,Low,Network,VPN Issue,Sales,EMEA,Alex Brown,Closed,1,8,No,4,No,No,22.36,Phone
+T00187,2025-05-07,2025-05-07,Medium,Network,DNS Issue,HR,Americas,Alex Brown,Closed,20,16,Yes,2,No,Yes,289.96,Email
+T00188,2025-02-21,2025-02-22,Medium,Security,Phishing Email,HR,EMEA,Sophia Wilson,Closed,29,16,Yes,3,No,Yes,654.63,Email
+T00189,2025-03-13,2025-03-13,Medium,Hardware,Monitor Issue,Operations,Americas,Priya Nair,Closed,19,16,Yes,3,No,Yes,306.81,Phone
+T00190,2025-12-05,2025-12-05,Medium,Security,Malware Alert,HR,Americas,Michael Chen,Closed,2,16,No,5,No,No,49.8,Chat
+T00191,2025-10-12,2025-10-12,Medium,Hardware,Keyboard Issue,IT,APAC,David Kumar,Closed,15,16,No,5,No,No,272.47,Chat
+T00192,2025-05-04,2025-05-04,High,Hardware,Monitor Issue,HR,Americas,Alex Brown,Closed,11,24,No,5,No,No,253.51,Phone
+T00193,2025-07-18,2025-07-18,Low,Network,DNS Issue,HR,Americas,Emma Davis,Closed,1,8,No,5,No,No,9.39,Chat
+T00194,2025-12-11,2025-12-11,Medium,Software,Password Reset,Operations,Americas,Emma Davis,Closed,1,16,No,5,No,No,20.94,Portal
+T00195,2025-06-05,2025-06-06,Critical,Software,Teams Login Error,IT,APAC,Emma Davis,Closed,24,12,Yes,2,No,Yes,549.75,Portal
+T00196,2025-07-14,2025-07-14,Medium,Hardware,Laptop Performance,Sales,Americas,Sophia Wilson,Closed,6,16,No,5,No,No,123.49,Chat
+T00197,2025-06-13,2025-06-13,Critical,Hardware,Laptop Performance,Finance,APAC,David Kumar,Closed,4,12,No,5,No,No,63.88,Phone
+T00198,2025-06-18,2025-06-18,Low,Cloud,AWS Storage Failure,Operations,Americas,Priya Nair,Closed,9,8,Yes,4,No,No,257.5,Chat
+T00199,2025-11-25,2025-11-25,High,Security,Unauthorized Access,Operations,EMEA,Michael Chen,Closed,20,24,No,5,Yes,No,442.93,Email
+T00200,2025-12-09,2025-12-09,Low,Software,Office 365 Error,Finance,APAC,Michael Chen,Closed,3,8,No,5,No,No,24.74,Chat
+T00201,2025-07-11,2025-07-11,Low,Cloud,Kubernetes Failure,HR,APAC,David Kumar,Closed,6,8,No,5,No,No,134.79,Portal
+T00202,2025-01-09,2025-01-09,Medium,Security,Unauthorized Access,HR,Americas,Michael Chen,Closed,13,16,No,4,No,No,188.58,Portal
+T00203,2025-07-01,2025-07-01,Low,Security,Phishing Email,Finance,EMEA,Sarah Lee,Closed,4,8,No,5,No,No,102.6,Email
+T00204,2025-02-17,2025-02-17,Medium,Security,Data Leakage Alert,HR,Americas,Michael Chen,Closed,20,16,Yes,2,No,Yes,429.92,Chat
+T00205,2025-11-27,2025-11-28,High,Cloud,Azure VM Failure,Finance,Americas,Sophia Wilson,Closed,42,24,Yes,3,No,Yes,1384.0,Portal
+T00206,2025-10-06,2025-10-06,Medium,Software,Teams Login Error,HR,APAC,Michael Chen,Closed,3,16,No,5,No,No,84.93,Chat
+T00207,2025-02-09,2025-02-09,Low,Cloud,AWS Storage Failure,IT,Americas,Michael Chen,Closed,1,8,No,5,No,No,29.34,Email
+T00208,2025-09-14,2025-09-14,High,Hardware,Printer Issue,IT,APAC,Sarah Lee,Closed,12,24,No,4,No,No,292.07,Chat
+T00209,2025-06-17,2025-06-17,Low,Hardware,Keyboard Issue,IT,APAC,Alex Brown,Closed,3,8,No,5,No,No,30.94,Portal
+T00210,2025-05-07,2025-05-07,High,Software,CRM Error,IT,Americas,Michael Chen,Closed,22,24,No,5,No,No,364.11,Email
+T00211,2025-02-16,2025-02-16,Low,Hardware,Keyboard Issue,HR,APAC,Alex Brown,Closed,5,8,No,5,No,No,100.59,Chat
+T00212,2025-02-22,2025-02-22,Low,Hardware,Docking Station,Operations,Americas,Priya Nair,Closed,9,8,Yes,2,No,No,75.0,Chat
+T00213,2025-07-18,2025-07-18,High,Cloud,AWS Storage Failure,Finance,APAC,David Kumar,Closed,15,24,No,5,No,No,228.7,Phone
+T00214,2025-02-02,2025-02-02,Low,Hardware,Keyboard Issue,IT,APAC,Priya Nair,Closed,6,8,No,5,No,No,88.78,Phone
+T00215,2025-11-17,2025-11-17,Medium,Cloud,AWS Storage Failure,IT,EMEA,Alex Brown,Closed,10,16,No,4,No,No,297.1,Portal
+T00216,2025-08-14,2025-08-14,Low,Cloud,AWS Storage Failure,Sales,Americas,Emma Davis,Closed,7,8,No,5,No,No,146.53,Phone
+T00217,2025-07-23,2025-07-23,Critical,Hardware,Keyboard Issue,IT,EMEA,Alex Brown,Closed,21,12,Yes,3,No,Yes,696.48,Phone
+T00218,2025-10-31,2025-10-31,Critical,Network,VPN Issue,Finance,EMEA,David Kumar,Closed,8,12,No,5,Yes,No,240.9,Chat
+T00219,2025-12-11,2025-12-11,Medium,Hardware,Monitor Issue,IT,APAC,Sophia Wilson,Closed,14,16,No,5,No,No,486.48,Chat
+T00220,2025-10-26,2025-10-26,Medium,Cloud,Kubernetes Failure,Sales,Americas,Sarah Lee,Closed,19,16,Yes,2,No,Yes,546.47,Portal
+T00221,2025-03-27,2025-03-28,Medium,Software,Application Crash,Sales,EMEA,Sarah Lee,Closed,26,16,Yes,4,No,Yes,277.22,Phone
+T00222,2025-09-19,2025-09-19,High,Cloud,AWS Storage Failure,Sales,EMEA,Sophia Wilson,Closed,19,24,No,5,Yes,No,328.97,Email
+T00223,2025-09-05,2025-09-05,Low,Security,Phishing Email,Sales,EMEA,Priya Nair,Closed,14,8,Yes,3,No,No,408.45,Chat
+T00224,2025-06-28,2025-06-29,Medium,Security,Data Leakage Alert,HR,EMEA,John Smith,Closed,27,16,Yes,3,No,Yes,232.46,Portal
+T00225,2025-11-28,2025-11-28,Low,Network,WiFi Outage,Operations,EMEA,Sophia Wilson,Closed,2,8,No,5,No,No,28.52,Chat
+T00226,2025-11-19,2025-11-19,Low,Security,Data Leakage Alert,Operations,APAC,Sophia Wilson,Closed,6,8,No,4,No,No,143.94,Chat
+T00227,2025-01-03,2025-01-03,High,Network,DNS Issue,Operations,APAC,Michael Chen,Closed,21,24,No,4,No,No,352.83,Chat
+T00228,2025-02-28,2025-02-28,Low,Security,Malware Alert,Operations,EMEA,Sarah Lee,Closed,1,8,No,5,No,No,17.39,Chat
+T00229,2025-11-13,2025-11-13,Low,Hardware,Docking Station,HR,APAC,David Kumar,Closed,2,8,No,5,No,No,22.32,Portal
+T00230,2025-12-22,2025-12-22,Low,Security,Data Leakage Alert,Operations,EMEA,Alex Brown,Closed,3,8,No,5,No,No,39.05,Phone
+T00231,2025-10-12,2025-10-12,Low,Hardware,Monitor Issue,Sales,APAC,Sophia Wilson,Closed,10,8,Yes,2,No,Yes,132.68,Chat
+T00232,2025-10-15,2025-10-16,Medium,Security,Data Leakage Alert,IT,Americas,Sophia Wilson,Closed,28,16,Yes,4,No,No,350.44,Email
+T00233,2025-04-23,2025-04-23,Low,Hardware,Monitor Issue,Operations,Americas,Sophia Wilson,Closed,4,8,No,5,No,No,91.37,Email
+T00234,2025-10-21,2025-10-21,Low,Cloud,Database Outage,IT,Americas,Emma Davis,Closed,6,8,No,4,No,No,208.34,Email
+T00235,2025-12-01,2025-12-01,High,Hardware,Printer Issue,IT,APAC,Emma Davis,Closed,11,24,No,4,Yes,No,328.78,Portal
+T00236,2025-12-30,2025-12-30,Medium,Security,Unauthorized Access,Finance,APAC,John Smith,Closed,16,16,No,5,No,No,374.27,Portal
+T00237,2025-11-02,2025-11-02,Medium,Hardware,Laptop Performance,Finance,EMEA,John Smith,Closed,12,16,No,4,No,No,417.57,Phone
+T00238,2025-12-26,2025-12-27,High,Network,WiFi Outage,Finance,Americas,Alex Brown,Closed,30,24,Yes,3,No,Yes,707.71,Portal
+T00239,2025-11-18,2025-11-18,Medium,Security,Phishing Email,IT,Americas,David Kumar,Closed,3,16,No,4,No,No,80.27,Portal
+T00240,2025-08-21,2025-08-21,Critical,Hardware,Docking Station,HR,Americas,Sophia Wilson,Closed,1,12,No,4,No,No,30.95,Chat
+T00241,2025-04-22,2025-04-22,Critical,Network,Firewall Issue,Operations,Americas,Michael Chen,Closed,9,12,No,5,No,No,263.56,Email
+T00242,2025-01-24,2025-01-24,Low,Security,Phishing Email,Finance,EMEA,Sophia Wilson,Closed,14,8,Yes,2,No,Yes,486.91,Chat
+T00243,2025-04-14,2025-04-14,Critical,Network,DNS Issue,HR,Americas,Priya Nair,Closed,18,12,Yes,3,No,Yes,324.72,Phone
+T00244,2025-01-27,2025-01-28,Medium,Hardware,Monitor Issue,HR,Americas,Sarah Lee,Closed,30,16,Yes,4,No,Yes,412.87,Email
+T00245,2025-03-09,2025-03-10,Medium,Cloud,Kubernetes Failure,IT,Americas,Michael Chen,Closed,26,16,Yes,2,No,No,257.72,Chat
+T00246,2025-02-15,2025-02-15,High,Software,Password Reset,Sales,EMEA,Michael Chen,Closed,22,24,No,5,No,No,635.44,Phone
+T00247,2025-11-25,2025-11-25,Critical,Network,VPN Issue,IT,EMEA,Emma Davis,Closed,10,12,No,5,Yes,No,328.37,Chat
+T00248,2025-04-22,2025-04-22,Low,Software,Teams Login Error,Operations,Americas,Alex Brown,Closed,7,8,No,4,No,No,122.44,Chat
+T00249,2025-06-11,2025-06-11,High,Network,DNS Issue,HR,Americas,David Kumar,Closed,16,24,No,5,Yes,No,351.67,Phone
+T00250,2025-07-20,2025-07-20,Low,Software,Teams Login Error,IT,APAC,Emma Davis,Closed,4,8,No,5,No,No,85.95,Email
+T00251,2025-09-28,2025-09-29,High,Software,CRM Error,Sales,Americas,Michael Chen,Closed,27,24,Yes,4,No,Yes,228.17,Email
+T00252,2025-01-08,2025-01-08,Low,Software,Password Reset,Operations,EMEA,Alex Brown,Closed,6,8,No,5,No,No,116.62,Chat
+T00253,2025-02-12,2025-02-12,Medium,Cloud,AWS Storage Failure,Finance,Americas,Priya Nair,Closed,13,16,No,5,No,No,241.15,Email
+T00254,2025-06-08,2025-06-08,Medium,Network,VPN Issue,HR,EMEA,Sarah Lee,Closed,21,16,Yes,3,No,No,515.17,Email
+T00255,2025-06-08,2025-06-08,Medium,Network,VPN Issue,Finance,EMEA,Priya Nair,Closed,18,16,Yes,2,No,No,225.14,Phone
+T00256,2025-05-18,2025-05-18,High,Software,Password Reset,IT,EMEA,Sarah Lee,Closed,22,24,No,5,No,No,599.12,Email
+T00257,2025-09-12,2025-09-12,Medium,Hardware,Printer Issue,Finance,EMEA,Sarah Lee,Closed,4,16,No,5,No,No,128.58,Email
+T00258,2025-04-27,2025-04-27,High,Software,Password Reset,Finance,APAC,Sophia Wilson,Closed,21,24,No,4,No,No,385.15,Phone
+T00259,2025-04-02,2025-04-02,Critical,Software,Application Crash,Finance,EMEA,Emma Davis,Closed,13,12,Yes,4,No,No,199.21,Email
+T00260,2025-10-20,2025-10-20,Medium,Cloud,Azure VM Failure,Finance,Americas,John Smith,Closed,2,16,No,5,No,No,67.52,Email
+T00261,2025-08-27,2025-08-28,High,Hardware,Laptop Performance,Finance,EMEA,David Kumar,Closed,32,24,Yes,3,Yes,No,574.19,Chat
+T00262,2025-04-11,2025-04-12,High,Cloud,AWS Storage Failure,HR,EMEA,John Smith,Closed,28,24,Yes,3,Yes,No,704.77,Email
+T00263,2025-06-21,2025-06-21,Low,Security,Malware Alert,IT,EMEA,John Smith,Closed,11,8,Yes,3,No,Yes,299.36,Email
+T00264,2025-01-23,2025-01-23,Critical,Cloud,Kubernetes Failure,IT,Americas,Sarah Lee,Closed,15,12,Yes,3,Yes,Yes,378.07,Chat
+T00265,2025-02-08,2025-02-08,Medium,Software,Office 365 Error,Sales,EMEA,Alex Brown,Closed,12,16,No,5,No,No,323.04,Portal
+T00266,2025-06-12,2025-06-12,Medium,Network,VPN Issue,Finance,Americas,Sarah Lee,Closed,10,16,No,5,No,No,121.96,Phone
+T00267,2025-08-19,2025-08-19,Medium,Security,Phishing Email,IT,EMEA,Sophia Wilson,Closed,1,16,No,5,No,No,15.16,Email
+T00268,2025-02-16,2025-02-16,Low,Hardware,Docking Station,Finance,EMEA,Michael Chen,Closed,4,8,No,4,No,No,41.85,Phone
+T00269,2025-07-02,2025-07-02,Medium,Software,CRM Error,IT,EMEA,Emma Davis,Closed,12,16,No,4,No,No,126.69,Email
+T00270,2025-03-13,2025-03-13,Low,Software,Teams Login Error,Finance,EMEA,Priya Nair,Closed,19,8,Yes,3,No,Yes,450.73,Portal
+T00271,2025-02-08,2025-02-08,Low,Software,Teams Login Error,HR,EMEA,Sarah Lee,Closed,10,8,Yes,3,No,Yes,334.42,Email
+T00272,2025-03-28,2025-03-28,Critical,Security,Data Leakage Alert,HR,EMEA,Alex Brown,Closed,7,12,No,5,Yes,No,122.9,Phone
+T00273,2025-05-21,2025-05-21,Low,Network,VPN Issue,IT,EMEA,Sophia Wilson,Closed,3,8,No,5,No,No,28.94,Portal
+T00274,2025-07-16,2025-07-16,Low,Network,WiFi Outage,IT,Americas,Priya Nair,Closed,3,8,No,4,No,No,62.85,Chat
+T00275,2025-06-26,2025-06-26,Critical,Cloud,Database Outage,Operations,APAC,John Smith,Closed,7,12,No,5,No,No,67.07,Chat
+T00276,2025-09-29,2025-09-29,Medium,Cloud,AWS Storage Failure,HR,APAC,Emma Davis,Closed,17,16,Yes,3,No,No,380.96,Email
+T00277,2025-04-23,2025-04-24,Medium,Security,Malware Alert,Finance,APAC,Priya Nair,Closed,37,16,Yes,3,No,No,1209.07,Email
+T00278,2025-12-27,2025-12-27,High,Cloud,AWS Storage Failure,IT,Americas,David Kumar,Closed,6,24,No,5,Yes,No,127.45,Email
+T00279,2025-01-29,2025-01-29,Low,Network,VPN Issue,Finance,EMEA,Michael Chen,Closed,7,8,No,5,No,No,229.65,Portal
+T00280,2025-01-31,2025-01-31,Low,Cloud,AWS Storage Failure,Operations,EMEA,Sarah Lee,Closed,7,8,No,4,No,No,126.61,Chat
+T00281,2025-10-28,2025-10-28,Low,Hardware,Laptop Performance,IT,Americas,Priya Nair,Closed,8,8,No,5,No,No,101.63,Portal
+T00282,2025-04-25,2025-04-25,Medium,Network,Firewall Issue,Sales,APAC,Michael Chen,Closed,17,16,Yes,3,No,Yes,571.49,Chat
+T00283,2025-10-18,2025-10-18,Low,Cloud,Database Outage,Operations,APAC,Sophia Wilson,Closed,16,8,Yes,3,No,Yes,271.06,Email
+T00284,2025-05-02,2025-05-02,Low,Hardware,Monitor Issue,Sales,EMEA,John Smith,Closed,2,8,No,4,No,No,30.32,Phone
+T00285,2025-12-21,2025-12-21,Low,Hardware,Printer Issue,IT,APAC,Alex Brown,Closed,6,8,No,5,No,No,127.88,Chat
+T00286,2025-06-29,2025-06-29,Medium,Software,Office 365 Error,Finance,EMEA,Sarah Lee,Closed,11,16,No,5,No,No,325.36,Email
+T00287,2025-05-31,2025-05-31,Low,Hardware,Printer Issue,Finance,Americas,Sarah Lee,Closed,9,8,Yes,4,No,Yes,154.12,Chat
+T00288,2025-12-27,2025-12-27,Low,Network,Firewall Issue,HR,APAC,Priya Nair,Closed,8,8,No,5,No,No,108.4,Phone
+T00289,2025-07-29,2025-07-29,Medium,Cloud,Database Outage,HR,EMEA,Sophia Wilson,Closed,10,16,No,4,No,No,121.47,Portal
+T00290,2025-01-02,2025-01-02,Medium,Hardware,Docking Station,Finance,APAC,John Smith,Closed,8,16,No,5,No,No,108.7,Portal
+T00291,2025-02-11,2025-02-11,Medium,Software,CRM Error,HR,Americas,Alex Brown,Closed,16,16,No,5,No,No,207.87,Chat
+T00292,2025-07-09,2025-07-09,Low,Software,CRM Error,IT,EMEA,Emma Davis,Closed,2,8,No,5,No,No,61.2,Email
+T00293,2025-03-19,2025-03-19,High,Software,Password Reset,Operations,APAC,John Smith,Closed,10,24,No,5,No,No,300.97,Chat
+T00294,2025-10-02,2025-10-02,Medium,Security,Unauthorized Access,Sales,APAC,Alex Brown,Closed,1,16,No,5,No,No,32.37,Email
+T00295,2025-09-15,2025-09-16,Medium,Cloud,AWS Storage Failure,Finance,APAC,Emma Davis,Closed,24,16,Yes,3,No,Yes,219.65,Email
+T00296,2025-12-16,2025-12-16,Medium,Network,DNS Issue,HR,APAC,Alex Brown,Closed,23,16,Yes,3,No,No,526.83,Portal
+T00297,2025-09-24,2025-09-24,Medium,Software,Application Crash,IT,APAC,Michael Chen,Closed,2,16,No,4,No,No,46.6,Email
+T00298,2025-02-24,2025-02-24,Medium,Software,CRM Error,IT,EMEA,Alex Brown,Closed,7,16,No,5,No,No,179.75,Chat
+T00299,2025-01-20,2025-01-20,Low,Security,Unauthorized Access,HR,EMEA,Priya Nair,Closed,2,8,No,5,No,No,53.29,Email
+T00300,2025-09-01,2025-09-01,Critical,Hardware,Printer Issue,Sales,EMEA,David Kumar,Closed,4,12,No,5,No,No,124.69,Email
+T00301,2025-04-27,2025-04-27,Low,Security,Malware Alert,Finance,EMEA,Emma Davis,Closed,6,8,No,4,No,No,195.98,Chat
+T00302,2025-09-06,2025-09-07,High,Hardware,Printer Issue,HR,EMEA,Alex Brown,Closed,33,24,Yes,3,Yes,Yes,418.8,Phone
+T00303,2025-01-30,2025-01-30,Low,Security,Phishing Email,Sales,EMEA,Alex Brown,Closed,12,8,Yes,3,No,Yes,316.7,Phone
+T00304,2025-07-10,2025-07-10,Medium,Security,Unauthorized Access,Operations,Americas,Priya Nair,Closed,8,16,No,5,No,No,138.36,Portal
+T00305,2025-12-19,2025-12-19,Low,Software,Office 365 Error,Finance,Americas,Emma Davis,Closed,14,8,Yes,3,No,Yes,213.71,Chat
+T00306,2025-09-20,2025-09-20,Low,Software,Office 365 Error,Finance,Americas,John Smith,Closed,9,8,Yes,3,No,Yes,133.33,Portal
+T00307,2025-12-31,2025-12-31,Critical,Hardware,Keyboard Issue,Sales,APAC,Sophia Wilson,Closed,20,12,Yes,4,No,No,475.62,Email
+T00308,2025-09-19,2025-09-19,Critical,Hardware,Docking Station,Sales,Americas,Sarah Lee,Closed,3,12,No,5,No,No,29.17,Portal
+T00309,2025-11-24,2025-11-24,Low,Hardware,Laptop Performance,Finance,APAC,Emma Davis,Closed,1,8,No,5,No,No,32.29,Chat
+T00310,2025-12-05,2025-12-05,Low,Network,VPN Issue,Sales,EMEA,Alex Brown,Closed,1,8,No,5,No,No,18.92,Email
+T00311,2025-10-26,2025-10-26,High,Cloud,AWS Storage Failure,Sales,Americas,David Kumar,Closed,11,24,No,5,Yes,No,337.67,Phone
+T00312,2025-05-31,2025-05-31,Low,Network,DNS Issue,Sales,Americas,Sarah Lee,Closed,12,8,Yes,3,No,Yes,211.11,Portal
+T00313,2025-08-04,2025-08-04,High,Hardware,Laptop Performance,IT,APAC,Sarah Lee,Closed,20,24,No,4,No,No,640.29,Email
+T00314,2025-12-15,2025-12-15,Medium,Hardware,Keyboard Issue,Finance,APAC,Emma Davis,Closed,21,16,Yes,2,No,No,400.01,Chat
+T00315,2025-03-15,2025-03-15,Low,Network,VPN Issue,Sales,Americas,John Smith,Closed,1,8,No,5,No,No,8.13,Portal
+T00316,2025-04-18,2025-04-18,High,Network,WiFi Outage,HR,APAC,Alex Brown,Closed,22,24,No,5,No,No,415.62,Chat
+T00317,2025-07-16,2025-07-16,Low,Cloud,AWS Storage Failure,Operations,APAC,John Smith,Closed,6,8,No,5,No,No,157.63,Phone
+T00318,2025-04-26,2025-04-26,Medium,Hardware,Laptop Performance,HR,EMEA,David Kumar,Closed,1,16,No,5,No,No,12.51,Email
+T00319,2025-06-02,2025-06-02,Critical,Security,Malware Alert,Sales,EMEA,Priya Nair,Closed,2,12,No,5,Yes,No,24.9,Chat
+T00320,2025-01-10,2025-01-10,Low,Network,WiFi Outage,Operations,Americas,Michael Chen,Closed,9,8,Yes,2,No,Yes,161.08,Email
+T00321,2025-07-12,2025-07-12,High,Hardware,Docking Station,HR,Americas,John Smith,Closed,10,24,No,4,Yes,No,266.23,Chat
+T00322,2025-08-16,2025-08-16,Medium,Cloud,Database Outage,Finance,APAC,John Smith,Closed,6,16,No,5,No,No,96.78,Email
+T00323,2025-12-06,2025-12-06,Medium,Cloud,AWS Storage Failure,Sales,APAC,Sarah Lee,Closed,1,16,No,4,No,No,21.44,Phone
+T00324,2025-05-15,2025-05-16,High,Network,DNS Issue,Sales,APAC,John Smith,Closed,34,24,Yes,4,No,Yes,903.77,Chat
+T00325,2025-06-19,2025-06-19,Low,Software,Password Reset,Finance,APAC,Sarah Lee,Closed,13,8,Yes,4,No,Yes,421.58,Phone
+T00326,2025-08-22,2025-08-22,Critical,Hardware,Laptop Performance,HR,APAC,Michael Chen,Closed,4,12,No,5,Yes,No,124.04,Portal
+T00327,2025-12-13,2025-12-13,Low,Software,Password Reset,Finance,Americas,Michael Chen,Closed,12,8,Yes,2,No,No,211.84,Chat
+T00328,2025-11-15,2025-11-15,Low,Software,CRM Error,Finance,APAC,Alex Brown,Closed,1,8,No,5,No,No,18.81,Chat
+T00329,2025-05-20,2025-05-20,High,Security,Data Leakage Alert,Finance,Americas,John Smith,Closed,8,24,No,4,Yes,No,86.4,Chat
+T00330,2025-10-19,2025-10-19,Medium,Network,Firewall Issue,Operations,APAC,Michael Chen,Closed,2,16,No,5,No,No,42.09,Chat
+T00331,2025-02-27,2025-02-28,High,Security,Phishing Email,Operations,Americas,Emma Davis,Closed,37,24,Yes,2,No,Yes,728.42,Phone
+T00332,2025-09-04,2025-09-04,Low,Security,Unauthorized Access,HR,Americas,Michael Chen,Closed,9,8,Yes,2,No,No,279.0,Phone
+T00333,2025-02-08,2025-02-08,High,Hardware,Monitor Issue,Operations,Americas,Alex Brown,Closed,16,24,No,5,No,No,480.99,Email
+T00334,2025-08-24,2025-08-24,Medium,Cloud,Kubernetes Failure,IT,EMEA,Priya Nair,Closed,20,16,Yes,2,No,Yes,689.56,Email
+T00335,2025-02-22,2025-02-22,Medium,Software,Application Crash,Operations,Americas,Emma Davis,Closed,1,16,No,5,No,No,25.67,Chat
+T00336,2025-06-24,2025-06-24,Medium,Software,Teams Login Error,Sales,Americas,Sophia Wilson,Closed,9,16,No,5,No,No,246.15,Portal
+T00337,2025-08-20,2025-08-20,Low,Network,VPN Issue,Operations,Americas,Priya Nair,Closed,3,8,No,5,No,No,80.87,Email
+T00338,2025-03-26,2025-03-27,Medium,Security,Phishing Email,Operations,APAC,Emma Davis,Closed,27,16,Yes,3,No,Yes,894.13,Chat
+T00339,2025-04-21,2025-04-21,Medium,Network,DNS Issue,IT,EMEA,Michael Chen,Closed,20,16,Yes,2,No,No,162.34,Email
+T00340,2025-10-11,2025-10-11,Critical,Cloud,Kubernetes Failure,Operations,APAC,Michael Chen,Closed,14,12,Yes,3,Yes,No,360.54,Portal
+T00341,2025-09-16,2025-09-16,High,Security,Unauthorized Access,IT,APAC,Michael Chen,Closed,17,24,No,5,No,No,412.56,Portal
+T00342,2025-12-26,2025-12-27,Medium,Hardware,Docking Station,Finance,APAC,David Kumar,Closed,34,16,Yes,3,No,No,1117.65,Phone
+T00343,2025-12-30,2025-12-30,Medium,Network,DNS Issue,Operations,Americas,Alex Brown,Closed,11,16,No,5,No,No,288.25,Portal
+T00344,2025-08-05,2025-08-05,High,Cloud,Azure VM Failure,IT,APAC,John Smith,Closed,1,24,No,4,Yes,No,13.4,Phone
+T00345,2025-05-27,2025-05-27,Medium,Network,VPN Issue,Sales,EMEA,Sarah Lee,Closed,11,16,No,4,No,No,270.98,Phone
+T00346,2025-11-28,2025-11-28,Medium,Network,DNS Issue,IT,EMEA,Alex Brown,Closed,8,16,No,4,No,No,270.65,Portal
+T00347,2025-10-10,2025-10-10,Low,Hardware,Monitor Issue,Finance,Americas,Priya Nair,Closed,2,8,No,5,No,No,56.78,Phone
+T00348,2025-04-10,2025-04-10,Low,Network,VPN Issue,Finance,Americas,Sarah Lee,Closed,2,8,No,5,No,No,36.37,Chat
+T00349,2025-05-23,2025-05-23,Medium,Network,WiFi Outage,IT,Americas,Michael Chen,Closed,9,16,No,5,No,No,81.71,Portal
+T00350,2025-11-02,2025-11-02,Low,Cloud,Database Outage,Operations,Americas,Priya Nair,Closed,5,8,No,5,No,No,49.84,Portal
+T00351,2025-09-27,2025-09-27,Low,Network,VPN Issue,HR,EMEA,Emma Davis,Closed,7,8,No,5,No,No,222.96,Portal
+T00352,2025-06-19,2025-06-19,Medium,Network,Firewall Issue,HR,Americas,Priya Nair,Closed,9,16,No,4,No,No,180.3,Phone
+T00353,2025-01-21,2025-01-22,Medium,Hardware,Keyboard Issue,Sales,Americas,David Kumar,Closed,31,16,Yes,4,No,Yes,1010.79,Portal
+T00354,2025-09-21,2025-09-21,High,Security,Data Leakage Alert,Sales,Americas,Emma Davis,Closed,7,24,No,4,No,No,153.13,Email
+T00355,2025-03-27,2025-03-27,Critical,Cloud,Azure VM Failure,IT,APAC,Emma Davis,Closed,7,12,No,5,No,No,178.2,Email
+T00356,2025-12-18,2025-12-18,Low,Security,Malware Alert,HR,APAC,John Smith,Closed,5,8,No,4,No,No,64.03,Portal
+T00357,2025-10-13,2025-10-13,Low,Network,DNS Issue,IT,EMEA,John Smith,Closed,3,8,No,5,No,No,55.55,Email
+T00358,2025-10-01,2025-10-01,Low,Cloud,Azure VM Failure,HR,EMEA,Sarah Lee,Closed,9,8,Yes,2,No,No,263.21,Portal
+T00359,2025-11-07,2025-11-07,Low,Security,Data Leakage Alert,Finance,Americas,Emma Davis,Closed,2,8,No,5,No,No,23.36,Chat
+T00360,2025-10-07,2025-10-07,Low,Network,DNS Issue,HR,Americas,Michael Chen,Closed,10,8,Yes,3,No,Yes,91.28,Chat
+T00361,2025-10-03,2025-10-03,Medium,Software,CRM Error,Finance,EMEA,Michael Chen,Closed,17,16,Yes,3,No,Yes,220.45,Portal
+T00362,2025-04-10,2025-04-10,Low,Cloud,Azure VM Failure,Operations,APAC,David Kumar,Closed,13,8,Yes,4,No,Yes,191.99,Phone
+T00363,2025-10-25,2025-10-25,Medium,Hardware,Laptop Performance,Sales,Americas,Sarah Lee,Closed,22,16,Yes,2,No,Yes,364.76,Chat
+T00364,2025-06-18,2025-06-18,Medium,Hardware,Docking Station,Operations,Americas,Priya Nair,Closed,22,16,Yes,3,No,No,745.44,Phone
+T00365,2025-01-03,2025-01-03,Low,Network,Firewall Issue,IT,EMEA,Sophia Wilson,Closed,6,8,No,5,No,No,106.12,Portal
+T00366,2025-09-07,2025-09-07,Medium,Network,VPN Issue,Finance,Americas,Emma Davis,Closed,21,16,Yes,3,No,No,583.92,Email
+T00367,2025-02-08,2025-02-09,High,Cloud,Azure VM Failure,HR,Americas,David Kumar,Closed,27,24,Yes,3,No,Yes,482.68,Phone
+T00368,2025-10-29,2025-10-29,High,Hardware,Monitor Issue,Operations,Americas,Sarah Lee,Closed,7,24,No,5,No,No,124.77,Email
+T00369,2025-12-06,2025-12-06,Low,Cloud,AWS Storage Failure,Finance,Americas,Michael Chen,Closed,7,8,No,5,No,No,195.09,Chat
+T00370,2025-07-03,2025-07-03,Low,Security,Unauthorized Access,Sales,EMEA,Emma Davis,Closed,5,8,No,4,No,No,45.78,Phone
+T00371,2025-09-23,2025-09-23,Critical,Hardware,Keyboard Issue,HR,Americas,Priya Nair,Closed,4,12,No,4,Yes,No,108.0,Portal
+T00372,2025-05-15,2025-05-15,Medium,Cloud,AWS Storage Failure,IT,EMEA,Sarah Lee,Closed,16,16,No,5,No,No,351.2,Chat
+T00373,2025-04-25,2025-04-25,Medium,Hardware,Laptop Performance,Operations,APAC,Sophia Wilson,Closed,5,16,No,4,No,No,62.36,Email
+T00374,2025-09-21,2025-09-21,Medium,Network,WiFi Outage,Finance,EMEA,Sarah Lee,Closed,15,16,No,5,No,No,387.75,Chat
+T00375,2025-06-19,2025-06-19,High,Security,Data Leakage Alert,HR,APAC,John Smith,Closed,5,24,No,5,Yes,No,117.42,Phone
+T00376,2025-03-10,2025-03-10,Medium,Software,Application Crash,HR,APAC,David Kumar,Closed,15,16,No,5,No,No,493.59,Chat
+T00377,2025-11-03,2025-11-03,Critical,Software,CRM Error,IT,APAC,Emma Davis,Closed,14,12,Yes,4,No,Yes,412.36,Phone
+T00378,2025-11-16,2025-11-16,Medium,Hardware,Monitor Issue,IT,Americas,Sarah Lee,Closed,12,16,No,5,No,No,170.46,Chat
+T00379,2025-03-09,2025-03-09,Low,Network,Firewall Issue,IT,Americas,John Smith,Closed,9,8,Yes,3,No,Yes,94.65,Phone
+T00380,2025-11-05,2025-11-05,Medium,Software,Office 365 Error,Sales,APAC,Alex Brown,Closed,4,16,No,5,No,No,56.78,Chat
+T00381,2025-07-15,2025-07-15,Medium,Cloud,Azure VM Failure,HR,EMEA,Alex Brown,Closed,8,16,No,5,No,No,119.69,Email
+T00382,2025-12-30,2025-12-31,High,Software,Application Crash,Operations,APAC,Alex Brown,Closed,25,24,Yes,2,Yes,No,475.97,Email
+T00383,2025-03-21,2025-03-21,Medium,Cloud,Database Outage,Operations,EMEA,Alex Brown,Closed,13,16,No,5,No,No,369.0,Chat
+T00384,2025-10-10,2025-10-11,High,Security,Unauthorized Access,Operations,Americas,Sophia Wilson,Closed,36,24,Yes,3,No,No,849.48,Chat
+T00385,2025-03-12,2025-03-12,High,Software,Teams Login Error,HR,APAC,Alex Brown,Closed,4,24,No,5,No,No,118.49,Email
+T00386,2025-03-24,2025-03-24,Medium,Software,Password Reset,IT,Americas,Alex Brown,Closed,18,16,Yes,3,No,Yes,175.14,Phone
+T00387,2025-07-09,2025-07-09,Low,Software,Office 365 Error,Operations,APAC,Michael Chen,Closed,10,8,Yes,3,No,No,198.52,Phone
+T00388,2025-12-03,2025-12-03,Critical,Cloud,Database Outage,HR,Americas,Emma Davis,Closed,8,12,No,5,Yes,No,209.59,Portal
+T00389,2025-05-03,2025-05-04,Medium,Network,VPN Issue,IT,EMEA,Emma Davis,Closed,28,16,Yes,3,No,Yes,781.12,Email
+T00390,2025-02-16,2025-02-16,Medium,Cloud,Database Outage,Sales,APAC,Emma Davis,Closed,14,16,No,5,No,No,283.9,Chat
+T00391,2025-10-22,2025-10-22,Low,Network,Firewall Issue,Sales,APAC,David Kumar,Closed,2,8,No,5,No,No,63.31,Portal
+T00392,2025-12-22,2025-12-22,Medium,Security,Data Leakage Alert,Sales,EMEA,Sophia Wilson,Closed,13,16,No,5,No,No,418.68,Email
+T00393,2025-09-04,2025-09-04,Low,Software,Office 365 Error,Sales,EMEA,Priya Nair,Closed,1,8,No,5,No,No,21.95,Email
+T00394,2025-12-25,2025-12-25,High,Network,DNS Issue,IT,Americas,Priya Nair,Closed,1,24,No,4,Yes,No,22.97,Phone
+T00395,2025-09-01,2025-09-01,Low,Network,DNS Issue,IT,Americas,Emma Davis,Closed,9,8,Yes,3,No,Yes,250.71,Portal
+T00396,2025-04-16,2025-04-16,Low,Network,DNS Issue,HR,APAC,Sarah Lee,Closed,13,8,Yes,3,No,No,319.45,Email
+T00397,2025-09-04,2025-09-05,Medium,Hardware,Keyboard Issue,IT,APAC,David Kumar,Closed,27,16,Yes,3,No,No,377.91,Phone
+T00398,2025-01-28,2025-01-28,Medium,Security,Data Leakage Alert,Operations,EMEA,Alex Brown,Closed,4,16,No,4,No,No,124.92,Phone
+T00399,2025-08-23,2025-08-23,Critical,Cloud,Kubernetes Failure,IT,Americas,Sarah Lee,Closed,10,12,No,5,No,No,177.63,Portal
+T00400,2025-04-06,2025-04-06,Medium,Network,DNS Issue,Operations,EMEA,Priya Nair,Closed,15,16,No,5,No,No,194.49,Chat
+T00401,2025-04-18,2025-04-18,Medium,Hardware,Laptop Performance,Operations,APAC,Emma Davis,Closed,18,16,Yes,3,No,Yes,494.32,Phone
+T00402,2025-10-12,2025-10-12,Medium,Security,Unauthorized Access,Finance,EMEA,John Smith,Closed,9,16,No,5,No,No,114.92,Chat
+T00403,2025-03-10,2025-03-10,Critical,Cloud,Database Outage,IT,APAC,Michael Chen,Closed,11,12,No,4,Yes,No,151.99,Portal
+T00404,2025-09-01,2025-09-01,High,Software,Office 365 Error,Sales,EMEA,Priya Nair,Closed,11,24,No,5,No,No,190.21,Chat
+T00405,2025-03-04,2025-03-04,Medium,Cloud,AWS Storage Failure,Sales,EMEA,Priya Nair,Closed,4,16,No,5,No,No,104.7,Chat
+T00406,2025-08-17,2025-08-17,High,Security,Malware Alert,Finance,APAC,Priya Nair,Closed,13,24,No,5,No,No,325.58,Chat
+T00407,2025-02-06,2025-02-06,Low,Hardware,Monitor Issue,Operations,Americas,Alex Brown,Closed,4,8,No,5,No,No,61.29,Chat
+T00408,2025-07-05,2025-07-06,High,Cloud,Kubernetes Failure,Finance,APAC,John Smith,Closed,37,24,Yes,4,Yes,Yes,957.36,Email
+T00409,2025-04-18,2025-04-18,Low,Software,Password Reset,HR,EMEA,Sarah Lee,Closed,14,8,Yes,2,No,Yes,211.21,Phone
+T00410,2025-02-13,2025-02-13,Medium,Security,Malware Alert,Finance,Americas,David Kumar,Closed,20,16,Yes,3,No,No,498.3,Phone
+T00411,2025-09-27,2025-09-27,High,Software,Password Reset,IT,EMEA,David Kumar,Closed,9,24,No,5,No,No,104.83,Phone
+T00412,2025-10-30,2025-10-30,Medium,Cloud,Kubernetes Failure,Sales,EMEA,Emma Davis,Closed,1,16,No,5,No,No,29.73,Chat
+T00413,2025-06-07,2025-06-07,Medium,Hardware,Monitor Issue,Sales,EMEA,Sophia Wilson,Closed,14,16,No,5,No,No,314.27,Chat
+T00414,2025-09-02,2025-09-02,Low,Security,Malware Alert,HR,Americas,Priya Nair,Closed,7,8,No,5,No,No,91.64,Chat
+T00415,2025-07-22,2025-07-22,Low,Security,Data Leakage Alert,Operations,Americas,David Kumar,Closed,7,8,No,5,No,No,109.8,Portal
+T00416,2025-07-31,2025-07-31,Low,Software,Teams Login Error,Sales,APAC,Sophia Wilson,Closed,8,8,No,5,No,No,197.43,Portal
+T00417,2025-12-25,2025-12-25,Medium,Network,DNS Issue,Finance,APAC,David Kumar,Closed,16,16,No,4,No,No,244.29,Chat
+T00418,2025-01-05,2025-01-05,Low,Network,VPN Issue,Finance,EMEA,Alex Brown,Closed,7,8,No,5,No,No,114.89,Chat
+T00419,2025-07-10,2025-07-11,Medium,Software,CRM Error,HR,EMEA,Alex Brown,Closed,26,16,Yes,3,No,Yes,589.32,Phone
+T00420,2025-04-09,2025-04-10,High,Hardware,Keyboard Issue,HR,Americas,Emma Davis,Closed,31,24,Yes,2,No,No,454.87,Email
+T00421,2025-04-12,2025-04-12,Medium,Software,Application Crash,Sales,EMEA,Michael Chen,Closed,11,16,No,5,No,No,274.86,Email
+T00422,2025-10-09,2025-10-09,Medium,Hardware,Keyboard Issue,Finance,EMEA,John Smith,Closed,9,16,No,5,No,No,281.87,Phone
+T00423,2025-02-27,2025-02-27,Low,Security,Malware Alert,IT,APAC,John Smith,Closed,14,8,Yes,2,No,Yes,331.65,Chat
+T00424,2025-12-19,2025-12-19,Medium,Hardware,Printer Issue,Finance,EMEA,Sarah Lee,Closed,15,16,No,5,No,No,397.81,Portal
+T00425,2025-11-17,2025-11-17,Low,Hardware,Monitor Issue,IT,APAC,Priya Nair,Closed,5,8,No,5,No,No,172.53,Portal
+T00426,2025-08-13,2025-08-13,High,Software,Office 365 Error,Finance,EMEA,John Smith,Closed,1,24,No,5,No,No,27.08,Portal
+T00427,2025-10-05,2025-10-05,Medium,Network,WiFi Outage,Sales,Americas,Michael Chen,Closed,7,16,No,5,No,No,69.02,Phone
+T00428,2025-08-19,2025-08-19,Low,Hardware,Docking Station,IT,APAC,Alex Brown,Closed,6,8,No,5,No,No,166.85,Email
+T00429,2025-11-14,2025-11-14,High,Cloud,AWS Storage Failure,Finance,Americas,Sophia Wilson,Closed,19,24,No,5,Yes,No,466.49,Portal
+T00430,2025-07-29,2025-07-29,Medium,Software,Password Reset,HR,APAC,Michael Chen,Closed,17,16,Yes,2,No,Yes,228.75,Chat
+T00431,2025-04-09,2025-04-09,Low,Cloud,Kubernetes Failure,HR,EMEA,Emma Davis,Closed,4,8,No,5,No,No,97.44,Email
+T00432,2025-01-07,2025-01-07,Critical,Network,Firewall Issue,IT,Americas,John Smith,Closed,4,12,No,4,No,No,92.27,Chat
+T00433,2025-07-08,2025-07-08,High,Software,Application Crash,Sales,APAC,Emma Davis,Closed,21,24,No,4,Yes,No,225.39,Phone
+T00434,2025-09-30,2025-09-30,Medium,Network,WiFi Outage,Operations,Americas,Alex Brown,Closed,16,16,No,5,No,No,450.32,Portal
+T00435,2025-12-12,2025-12-12,Medium,Security,Phishing Email,Operations,EMEA,Michael Chen,Closed,16,16,No,5,No,No,358.65,Chat
+T00436,2025-06-30,2025-06-30,Critical,Cloud,Database Outage,IT,Americas,Alex Brown,Closed,14,12,Yes,3,No,Yes,324.87,Phone
+T00437,2025-07-12,2025-07-13,High,Hardware,Laptop Performance,HR,Americas,John Smith,Closed,34,24,Yes,4,No,Yes,747.17,Portal
+T00438,2025-01-04,2025-01-04,Low,Network,WiFi Outage,HR,Americas,David Kumar,Closed,6,8,No,5,No,No,196.9,Phone
+T00439,2025-02-18,2025-02-18,Low,Hardware,Monitor Issue,Finance,EMEA,David Kumar,Closed,9,8,Yes,3,No,Yes,210.63,Phone
+T00440,2025-02-09,2025-02-10,High,Security,Unauthorized Access,Operations,APAC,David Kumar,Closed,30,24,Yes,4,Yes,No,303.57,Email
+T00441,2025-06-21,2025-06-21,Low,Security,Data Leakage Alert,Operations,APAC,Alex Brown,Closed,9,8,Yes,3,No,Yes,146.06,Email
+T00442,2025-06-13,2025-06-13,Medium,Network,DNS Issue,Finance,APAC,Alex Brown,Closed,12,16,No,5,No,No,410.62,Email
+T00443,2025-04-24,2025-04-24,Medium,Security,Unauthorized Access,Operations,EMEA,David Kumar,Closed,16,16,No,4,No,No,164.75,Chat
+T00444,2025-12-24,2025-12-24,Low,Network,Firewall Issue,IT,EMEA,Emma Davis,Closed,8,8,No,5,No,No,185.21,Phone
+T00445,2025-05-05,2025-05-05,Low,Security,Malware Alert,IT,EMEA,Priya Nair,Closed,5,8,No,4,No,No,87.02,Portal
+T00446,2025-06-26,2025-06-26,Medium,Software,CRM Error,Sales,Americas,Sophia Wilson,Closed,4,16,No,5,No,No,99.3,Chat
+T00447,2025-01-23,2025-01-23,Critical,Network,WiFi Outage,HR,Americas,John Smith,Closed,9,12,No,4,Yes,No,302.59,Phone
+T00448,2025-05-28,2025-05-28,Low,Software,CRM Error,IT,APAC,Priya Nair,Closed,5,8,No,5,No,No,68.22,Phone
+T00449,2025-04-15,2025-04-15,Medium,Hardware,Docking Station,HR,EMEA,John Smith,Closed,1,16,No,5,No,No,14.9,Email
+T00450,2025-05-26,2025-05-26,Low,Cloud,Database Outage,IT,Americas,John Smith,Closed,7,8,No,4,No,No,68.59,Portal
+T00451,2025-12-06,2025-12-07,High,Hardware,Printer Issue,Finance,EMEA,Sarah Lee,Closed,45,24,Yes,4,No,No,1413.13,Email
+T00452,2025-04-06,2025-04-06,Low,Security,Phishing Email,Finance,Americas,David Kumar,Closed,8,8,No,4,No,No,136.05,Chat
+T00453,2025-03-22,2025-03-22,Low,Hardware,Laptop Performance,HR,Americas,David Kumar,Closed,5,8,No,5,No,No,158.62,Email
+T00454,2025-10-12,2025-10-12,Critical,Network,WiFi Outage,IT,Americas,Michael Chen,Closed,7,12,No,5,Yes,No,193.95,Phone
+T00455,2025-08-02,2025-08-02,Low,Network,Firewall Issue,IT,Americas,Michael Chen,Closed,15,8,Yes,3,No,Yes,384.25,Phone
+T00456,2025-03-12,2025-03-12,Low,Cloud,AWS Storage Failure,Finance,Americas,Michael Chen,Closed,5,8,No,5,No,No,82.86,Email
+T00457,2025-04-05,2025-04-05,Low,Network,VPN Issue,IT,EMEA,Sophia Wilson,Closed,7,8,No,5,No,No,196.92,Portal
+T00458,2025-03-19,2025-03-19,High,Software,Teams Login Error,HR,Americas,David Kumar,Closed,1,24,No,5,Yes,No,24.1,Phone
+T00459,2025-12-18,2025-12-18,Low,Software,Office 365 Error,Sales,APAC,Alex Brown,Closed,12,8,Yes,4,No,No,249.53,Phone
+T00460,2025-04-09,2025-04-09,Low,Security,Phishing Email,IT,APAC,Emma Davis,Closed,12,8,Yes,3,No,Yes,117.43,Chat
+T00461,2025-11-12,2025-11-12,Medium,Hardware,Keyboard Issue,Operations,Americas,Alex Brown,Closed,20,16,Yes,2,No,No,372.84,Email
+T00462,2025-09-24,2025-09-24,Low,Security,Phishing Email,Operations,Americas,Alex Brown,Closed,4,8,No,5,No,No,138.25,Email
+T00463,2025-10-13,2025-10-13,Medium,Software,Teams Login Error,Sales,EMEA,Michael Chen,Closed,12,16,No,5,No,No,232.88,Email
+T00464,2025-12-20,2025-12-20,Medium,Network,Firewall Issue,HR,Americas,Sarah Lee,Closed,22,16,Yes,4,No,Yes,638.57,Phone
+T00465,2025-07-21,2025-07-21,Medium,Security,Phishing Email,IT,APAC,David Kumar,Closed,19,16,Yes,3,No,No,506.85,Phone
+T00466,2025-03-05,2025-03-05,Low,Security,Malware Alert,Operations,Americas,Alex Brown,Closed,12,8,Yes,2,No,Yes,218.69,Chat
+T00467,2025-01-23,2025-01-24,High,Hardware,Docking Station,Finance,APAC,John Smith,Closed,38,24,Yes,3,No,No,621.57,Chat
+T00468,2025-05-28,2025-05-28,Medium,Software,Teams Login Error,HR,Americas,David Kumar,Closed,2,16,No,5,No,No,16.66,Chat
+T00469,2025-09-13,2025-09-13,Medium,Software,Application Crash,IT,EMEA,Sophia Wilson,Closed,18,16,Yes,4,No,Yes,436.19,Email
+T00470,2025-05-06,2025-05-06,High,Hardware,Docking Station,HR,APAC,Michael Chen,Closed,15,24,No,5,Yes,No,384.58,Email
+T00471,2025-03-16,2025-03-16,High,Cloud,Database Outage,IT,APAC,Michael Chen,Closed,19,24,No,4,No,No,465.49,Phone
+T00472,2025-08-22,2025-08-23,High,Hardware,Printer Issue,Sales,EMEA,Priya Nair,Closed,26,24,Yes,2,No,Yes,740.43,Email
+T00473,2025-05-30,2025-05-30,Medium,Software,CRM Error,Finance,Americas,John Smith,Closed,10,16,No,5,No,No,109.51,Email
+T00474,2025-09-05,2025-09-06,High,Cloud,Database Outage,Operations,EMEA,David Kumar,Closed,32,24,Yes,4,No,Yes,786.75,Chat
+T00475,2025-09-24,2025-09-25,High,Security,Data Leakage Alert,Sales,APAC,John Smith,Closed,30,24,Yes,3,Yes,Yes,616.56,Email
+T00476,2025-04-17,2025-04-17,High,Security,Data Leakage Alert,Sales,EMEA,Emma Davis,Closed,1,24,No,4,Yes,No,25.3,Portal
+T00477,2025-05-11,2025-05-11,High,Hardware,Laptop Performance,HR,Americas,Priya Nair,Closed,10,24,No,4,No,No,186.93,Email
+T00478,2025-03-31,2025-03-31,Low,Hardware,Keyboard Issue,HR,Americas,Michael Chen,Closed,7,8,No,5,No,No,147.0,Chat
+T00479,2025-10-02,2025-10-03,High,Security,Data Leakage Alert,Operations,Americas,Priya Nair,Closed,25,24,Yes,3,Yes,Yes,589.74,Portal
+T00480,2025-07-01,2025-07-01,Low,Network,DNS Issue,Sales,EMEA,Michael Chen,Closed,6,8,No,4,No,No,140.5,Chat
+T00481,2025-04-06,2025-04-06,Medium,Hardware,Laptop Performance,IT,APAC,Priya Nair,Closed,12,16,No,4,No,No,242.42,Portal
+T00482,2025-04-21,2025-04-21,Medium,Network,VPN Issue,HR,APAC,Sarah Lee,Closed,8,16,No,5,No,No,159.86,Email
+T00483,2025-09-05,2025-09-05,Critical,Network,WiFi Outage,Sales,APAC,Sarah Lee,Closed,7,12,No,5,Yes,No,94.78,Email
+T00484,2025-08-24,2025-08-24,Medium,Cloud,Azure VM Failure,Sales,APAC,Sarah Lee,Closed,22,16,Yes,2,No,No,453.32,Email
+T00485,2025-02-22,2025-02-22,Medium,Hardware,Printer Issue,Sales,APAC,Emma Davis,Closed,8,16,No,5,No,No,125.9,Portal
+T00486,2025-08-14,2025-08-14,Medium,Hardware,Monitor Issue,Sales,APAC,John Smith,Closed,11,16,No,5,No,No,372.61,Email
+T00487,2025-04-16,2025-04-16,Medium,Cloud,Database Outage,Operations,APAC,Michael Chen,Closed,11,16,No,5,No,No,109.16,Portal
+T00488,2025-10-04,2025-10-05,Medium,Network,VPN Issue,HR,APAC,Alex Brown,Closed,33,16,Yes,4,No,Yes,340.73,Chat
+T00489,2025-04-02,2025-04-02,High,Cloud,Kubernetes Failure,Operations,APAC,Sophia Wilson,Closed,13,24,No,5,Yes,No,136.61,Chat
+T00490,2025-02-19,2025-02-19,Medium,Security,Data Leakage Alert,Finance,APAC,David Kumar,Closed,9,16,No,5,No,No,293.83,Chat
+T00491,2025-04-04,2025-04-04,Medium,Hardware,Laptop Performance,HR,EMEA,Sophia Wilson,Closed,12,16,No,5,No,No,245.44,Phone
+T00492,2025-05-25,2025-05-25,High,Cloud,AWS Storage Failure,IT,Americas,Sarah Lee,Closed,22,24,No,4,No,No,506.35,Email
+T00493,2025-06-04,2025-06-04,Medium,Security,Data Leakage Alert,IT,EMEA,Sarah Lee,Closed,14,16,No,5,No,No,240.79,Chat
+T00494,2025-08-11,2025-08-11,Medium,Hardware,Docking Station,Finance,Americas,Sarah Lee,Closed,20,16,Yes,3,No,No,221.73,Chat
+T00495,2025-06-16,2025-06-16,Medium,Security,Unauthorized Access,Operations,EMEA,Priya Nair,Closed,11,16,No,4,No,No,234.81,Email
+T00496,2025-02-16,2025-02-16,Low,Network,VPN Issue,Finance,EMEA,David Kumar,Closed,11,8,Yes,3,No,No,270.82,Chat
+T00497,2025-04-11,2025-04-11,Low,Hardware,Laptop Performance,IT,Americas,Priya Nair,Closed,1,8,No,5,No,No,34.74,Email
+T00498,2025-11-10,2025-11-10,Critical,Security,Unauthorized Access,HR,EMEA,John Smith,Closed,5,12,No,5,Yes,No,134.95,Portal
+T00499,2025-02-26,2025-02-26,High,Software,Teams Login Error,IT,EMEA,Alex Brown,Closed,7,24,No,5,No,No,159.03,Phone
+T00500,2025-09-01,2025-09-01,Low,Cloud,Kubernetes Failure,IT,APAC,David Kumar,Closed,9,8,Yes,3,No,Yes,104.63,Email
+T00501,2025-11-28,2025-11-28,Low,Security,Data Leakage Alert,IT,EMEA,Alex Brown,Closed,9,8,Yes,3,No,Yes,182.42,Chat
+T00502,2025-10-10,2025-10-10,High,Security,Malware Alert,Finance,EMEA,John Smith,Closed,20,24,No,5,No,No,617.27,Phone
+T00503,2025-12-31,2025-12-31,Medium,Security,Malware Alert,Sales,APAC,Sophia Wilson,Closed,16,16,No,5,No,No,543.47,Email
+T00504,2025-03-14,2025-03-14,High,Cloud,Database Outage,Operations,APAC,Sarah Lee,Closed,22,24,No,5,Yes,No,456.64,Email
+T00505,2025-12-17,2025-12-17,Medium,Cloud,Database Outage,IT,EMEA,Sophia Wilson,Closed,1,16,No,4,No,No,23.5,Portal
+T00506,2025-08-04,2025-08-04,Medium,Hardware,Laptop Performance,HR,Americas,David Kumar,Closed,3,16,No,5,No,No,82.88,Portal
+T00507,2025-02-01,2025-02-01,Medium,Cloud,AWS Storage Failure,Operations,APAC,David Kumar,Closed,3,16,No,5,No,No,63.27,Phone
+T00508,2025-09-16,2025-09-16,Low,Hardware,Laptop Performance,Operations,EMEA,David Kumar,Closed,4,8,No,5,No,No,124.65,Email
+T00509,2025-02-27,2025-02-27,Medium,Cloud,AWS Storage Failure,Sales,Americas,Emma Davis,Closed,10,16,No,5,No,No,210.93,Email
+T00510,2025-06-25,2025-06-25,Critical,Network,WiFi Outage,IT,EMEA,Emma Davis,Closed,5,12,No,5,No,No,138.01,Phone
+T00511,2025-04-18,2025-04-18,Medium,Hardware,Printer Issue,HR,APAC,Sophia Wilson,Closed,5,16,No,4,No,No,93.83,Portal
+T00512,2025-09-01,2025-09-01,High,Cloud,AWS Storage Failure,IT,EMEA,David Kumar,Closed,5,24,No,5,Yes,No,111.61,Chat
+T00513,2025-01-07,2025-01-07,Low,Security,Data Leakage Alert,HR,Americas,Priya Nair,Closed,2,8,No,4,No,No,67.63,Chat
+T00514,2025-11-09,2025-11-09,Critical,Hardware,Laptop Performance,Sales,APAC,David Kumar,Closed,1,12,No,5,No,No,20.45,Phone
+T00515,2025-12-11,2025-12-11,Medium,Network,DNS Issue,Operations,APAC,John Smith,Closed,3,16,No,5,No,No,91.37,Email
+T00516,2025-07-30,2025-07-30,Low,Software,Office 365 Error,Finance,Americas,David Kumar,Closed,1,8,No,5,No,No,14.8,Email
+T00517,2025-01-13,2025-01-13,Medium,Software,Application Crash,HR,APAC,Michael Chen,Closed,5,16,No,4,No,No,90.75,Phone
+T00518,2025-02-26,2025-02-26,Medium,Hardware,Laptop Performance,HR,Americas,Sophia Wilson,Closed,1,16,No,5,No,No,32.91,Portal
+T00519,2025-08-07,2025-08-07,Medium,Hardware,Laptop Performance,IT,EMEA,Priya Nair,Closed,16,16,No,4,No,No,558.25,Portal
+T00520,2025-05-16,2025-05-16,Low,Software,Office 365 Error,Operations,EMEA,Michael Chen,Closed,8,8,No,5,No,No,203.42,Email
+T00521,2025-03-15,2025-03-15,Medium,Security,Unauthorized Access,Sales,APAC,John Smith,Closed,11,16,No,5,No,No,109.66,Portal
+T00522,2025-08-17,2025-08-17,Low,Security,Unauthorized Access,HR,Americas,Alex Brown,Closed,5,8,No,4,No,No,75.97,Portal
+T00523,2025-07-20,2025-07-20,Medium,Cloud,Kubernetes Failure,Operations,APAC,John Smith,Closed,6,16,No,4,No,No,110.28,Chat
+T00524,2025-03-04,2025-03-04,Medium,Hardware,Laptop Performance,IT,APAC,Sarah Lee,Closed,15,16,No,5,No,No,267.97,Portal
+T00525,2025-02-11,2025-02-11,High,Hardware,Monitor Issue,Finance,EMEA,Alex Brown,Closed,23,24,No,5,Yes,No,575.61,Portal
+T00526,2025-09-07,2025-09-07,Low,Security,Unauthorized Access,HR,APAC,John Smith,Closed,8,8,No,5,No,No,219.46,Phone
+T00527,2025-09-08,2025-09-08,Medium,Cloud,Database Outage,HR,APAC,Priya Nair,Closed,1,16,No,5,No,No,9.51,Email
+T00528,2025-07-27,2025-07-27,Low,Cloud,Kubernetes Failure,Operations,APAC,Sarah Lee,Closed,7,8,No,5,No,No,62.97,Phone
+T00529,2025-09-08,2025-09-08,Medium,Security,Phishing Email,Finance,Americas,John Smith,Closed,14,16,No,4,No,No,453.96,Email
+T00530,2025-08-22,2025-08-23,Medium,Cloud,Azure VM Failure,HR,EMEA,Emma Davis,Closed,25,16,Yes,2,No,Yes,743.01,Chat
+T00531,2025-06-22,2025-06-23,High,Security,Malware Alert,Sales,APAC,John Smith,Closed,34,24,Yes,3,Yes,No,330.04,Portal
+T00532,2025-03-14,2025-03-15,High,Network,DNS Issue,IT,APAC,John Smith,Closed,34,24,Yes,3,Yes,Yes,998.19,Chat
+T00533,2025-03-22,2025-03-22,Low,Security,Phishing Email,Operations,EMEA,Alex Brown,Closed,9,8,Yes,2,No,No,240.24,Phone
+T00534,2025-03-15,2025-03-15,Medium,Cloud,Kubernetes Failure,Finance,APAC,John Smith,Closed,14,16,No,5,No,No,337.39,Chat
+T00535,2025-11-10,2025-11-10,Critical,Hardware,Laptop Performance,HR,Americas,Sarah Lee,Closed,4,12,No,5,No,No,125.17,Phone
+T00536,2025-08-26,2025-08-27,High,Network,DNS Issue,Finance,APAC,Michael Chen,Closed,29,24,Yes,2,No,No,370.06,Email
+T00537,2025-01-28,2025-01-28,Medium,Hardware,Monitor Issue,HR,APAC,John Smith,Closed,7,16,No,5,No,No,230.8,Phone
+T00538,2025-03-22,2025-03-23,High,Security,Phishing Email,Finance,Americas,Sophia Wilson,Closed,25,24,Yes,2,No,No,334.16,Portal
+T00539,2025-04-28,2025-04-29,High,Hardware,Monitor Issue,IT,APAC,Sarah Lee,Closed,37,24,Yes,3,No,No,350.29,Chat
+T00540,2025-03-16,2025-03-16,Low,Cloud,Kubernetes Failure,IT,EMEA,Michael Chen,Closed,10,8,Yes,3,No,No,274.35,Portal
+T00541,2025-05-19,2025-05-19,Low,Network,VPN Issue,HR,EMEA,Sophia Wilson,Closed,6,8,No,5,No,No,115.75,Portal
+T00542,2025-04-23,2025-04-23,High,Cloud,AWS Storage Failure,Operations,Americas,Emma Davis,Closed,17,24,No,5,Yes,No,324.97,Chat
+T00543,2025-04-21,2025-04-21,Medium,Security,Malware Alert,Finance,EMEA,Alex Brown,Closed,22,16,Yes,3,No,Yes,705.74,Phone
+T00544,2025-10-21,2025-10-21,High,Security,Phishing Email,IT,Americas,John Smith,Closed,22,24,No,4,No,No,491.49,Chat
+T00545,2025-12-23,2025-12-23,High,Security,Data Leakage Alert,IT,APAC,Michael Chen,Closed,22,24,No,4,No,No,351.7,Email
+T00546,2025-01-09,2025-01-10,Medium,Hardware,Monitor Issue,Operations,Americas,John Smith,Closed,24,16,Yes,4,No,No,492.52,Phone
+T00547,2025-12-27,2025-12-27,Medium,Hardware,Keyboard Issue,IT,Americas,Priya Nair,Closed,14,16,No,4,No,No,312.69,Portal
+T00548,2025-08-07,2025-08-07,High,Cloud,AWS Storage Failure,Operations,EMEA,John Smith,Closed,20,24,No,4,No,No,639.51,Email
+T00549,2025-07-16,2025-07-16,Medium,Cloud,Azure VM Failure,Operations,Americas,Emma Davis,Closed,11,16,No,4,No,No,129.11,Portal
+T00550,2025-05-03,2025-05-03,Medium,Security,Unauthorized Access,Sales,EMEA,David Kumar,Closed,18,16,Yes,3,No,No,278.69,Email
+T00551,2025-07-10,2025-07-10,Low,Security,Phishing Email,IT,Americas,Priya Nair,Closed,2,8,No,5,No,No,59.19,Email
+T00552,2025-04-07,2025-04-08,High,Security,Phishing Email,IT,APAC,David Kumar,Closed,24,24,No,4,Yes,No,262.87,Portal
+T00553,2025-02-27,2025-02-27,Medium,Security,Unauthorized Access,Sales,EMEA,Michael Chen,Closed,21,16,Yes,2,No,No,364.58,Chat
+T00554,2025-11-27,2025-11-27,Low,Network,VPN Issue,Finance,Americas,Priya Nair,Closed,3,8,No,4,No,No,57.35,Portal
+T00555,2025-12-02,2025-12-02,Medium,Hardware,Keyboard Issue,IT,EMEA,Michael Chen,Closed,4,16,No,5,No,No,129.01,Portal
+T00556,2025-03-29,2025-03-29,High,Network,Firewall Issue,Sales,APAC,Michael Chen,Closed,11,24,No,5,No,No,172.46,Phone
+T00557,2025-11-13,2025-11-13,Critical,Cloud,Database Outage,Finance,APAC,Sarah Lee,Closed,12,12,No,5,Yes,No,417.98,Phone
+T00558,2025-08-14,2025-08-14,Low,Network,WiFi Outage,Sales,EMEA,Michael Chen,Closed,9,8,Yes,2,No,No,180.97,Phone
+T00559,2025-10-01,2025-10-01,Low,Software,Office 365 Error,Sales,APAC,John Smith,Closed,13,8,Yes,4,No,No,331.18,Portal
+T00560,2025-08-31,2025-08-31,High,Cloud,AWS Storage Failure,Sales,Americas,Sarah Lee,Closed,12,24,No,5,No,No,387.66,Phone
+T00561,2025-12-14,2025-12-14,Medium,Hardware,Printer Issue,Sales,APAC,Priya Nair,Closed,1,16,No,5,No,No,9.49,Phone
+T00562,2025-10-26,2025-10-26,Medium,Hardware,Monitor Issue,HR,Americas,Sophia Wilson,Closed,23,16,Yes,2,No,Yes,790.0,Chat
+T00563,2025-04-10,2025-04-10,Medium,Cloud,Azure VM Failure,IT,EMEA,Alex Brown,Closed,20,16,Yes,3,No,No,166.58,Portal
+T00564,2025-06-29,2025-06-29,Low,Security,Phishing Email,IT,Americas,Alex Brown,Closed,5,8,No,5,No,No,148.5,Portal
+T00565,2025-03-25,2025-03-26,High,Security,Data Leakage Alert,Finance,APAC,David Kumar,Closed,31,24,Yes,2,No,No,303.34,Chat
+T00566,2025-02-15,2025-02-15,Low,Hardware,Keyboard Issue,Operations,EMEA,Michael Chen,Closed,11,8,Yes,3,No,Yes,143.24,Chat
+T00567,2025-05-29,2025-05-29,Medium,Software,CRM Error,Finance,APAC,John Smith,Closed,17,16,Yes,4,No,Yes,256.57,Chat
+T00568,2025-03-05,2025-03-05,Medium,Hardware,Keyboard Issue,IT,Americas,Emma Davis,Closed,8,16,No,5,No,No,70.14,Portal
+T00569,2025-09-10,2025-09-10,Critical,Software,Application Crash,Sales,Americas,Sophia Wilson,Closed,10,12,No,5,Yes,No,180.76,Email
+T00570,2025-05-13,2025-05-13,Low,Software,Teams Login Error,IT,Americas,Michael Chen,Closed,1,8,No,5,No,No,17.65,Email
+T00571,2025-05-20,2025-05-20,Medium,Hardware,Printer Issue,Operations,APAC,Michael Chen,Closed,11,16,No,4,No,No,315.11,Phone
+T00572,2025-10-06,2025-10-06,Low,Hardware,Laptop Performance,Sales,APAC,Priya Nair,Closed,11,8,Yes,3,No,Yes,91.83,Portal
+T00573,2025-07-10,2025-07-11,High,Security,Malware Alert,Finance,Americas,Emma Davis,Closed,27,24,Yes,3,Yes,Yes,520.25,Email
+T00574,2025-03-01,2025-03-01,High,Software,Office 365 Error,Sales,Americas,Priya Nair,Closed,18,24,No,5,Yes,No,541.08,Portal
+T00575,2025-03-30,2025-03-31,High,Software,Password Reset,Finance,EMEA,Michael Chen,Closed,25,24,Yes,3,Yes,Yes,862.25,Chat
+T00576,2025-12-20,2025-12-21,High,Software,Password Reset,IT,EMEA,John Smith,Closed,44,24,Yes,2,Yes,Yes,390.96,Email
+T00577,2025-08-29,2025-08-29,Low,Hardware,Printer Issue,HR,Americas,Emma Davis,Closed,12,8,Yes,2,No,Yes,155.87,Portal
+T00578,2025-01-15,2025-01-15,Low,Hardware,Docking Station,Sales,APAC,Emma Davis,Closed,9,8,Yes,3,No,Yes,96.08,Email
+T00579,2025-09-28,2025-09-28,Low,Network,DNS Issue,HR,APAC,Sophia Wilson,Closed,10,8,Yes,2,No,No,268.5,Phone
+T00580,2025-08-14,2025-08-15,Medium,Software,Teams Login Error,IT,EMEA,Emma Davis,Closed,26,16,Yes,3,No,Yes,494.12,Portal
+T00581,2025-03-05,2025-03-05,Medium,Cloud,AWS Storage Failure,Operations,Americas,John Smith,Closed,6,16,No,5,No,No,61.32,Chat
+T00582,2025-03-01,2025-03-01,Medium,Security,Malware Alert,Finance,Americas,Alex Brown,Closed,14,16,No,5,No,No,221.84,Chat
+T00583,2025-04-07,2025-04-08,High,Security,Malware Alert,HR,EMEA,Sophia Wilson,Closed,40,24,Yes,4,Yes,Yes,474.84,Chat
+T00584,2025-12-22,2025-12-23,Medium,Software,Teams Login Error,Sales,APAC,Priya Nair,Closed,40,16,Yes,2,No,Yes,962.56,Chat
+T00585,2025-03-04,2025-03-04,Low,Security,Data Leakage Alert,IT,EMEA,Sophia Wilson,Closed,6,8,No,5,No,No,156.0,Chat
+T00586,2025-09-06,2025-09-07,Medium,Network,Firewall Issue,HR,EMEA,Sophia Wilson,Closed,26,16,Yes,2,No,No,370.04,Phone
+T00587,2025-01-16,2025-01-16,Low,Software,Password Reset,IT,Americas,Priya Nair,Closed,6,8,No,5,No,No,72.74,Email
+T00588,2025-02-09,2025-02-09,Medium,Cloud,Kubernetes Failure,Finance,EMEA,Sophia Wilson,Closed,14,16,No,5,No,No,297.31,Portal
+T00589,2025-10-05,2025-10-05,Low,Cloud,Azure VM Failure,HR,EMEA,Sophia Wilson,Closed,8,8,No,5,No,No,131.94,Chat
+T00590,2025-08-15,2025-08-15,Medium,Software,Teams Login Error,Finance,EMEA,Alex Brown,Closed,13,16,No,5,No,No,151.21,Chat
+T00591,2025-09-07,2025-09-07,High,Cloud,Kubernetes Failure,IT,Americas,Michael Chen,Closed,11,24,No,5,Yes,No,204.24,Chat
+T00592,2025-10-30,2025-10-30,Critical,Cloud,Database Outage,Sales,APAC,John Smith,Closed,3,12,No,5,Yes,No,34.38,Portal
+T00593,2025-06-28,2025-06-28,High,Cloud,Azure VM Failure,HR,EMEA,Priya Nair,Closed,23,24,No,5,No,No,439.81,Email
+T00594,2025-12-05,2025-12-05,Low,Network,DNS Issue,HR,EMEA,Sarah Lee,Closed,1,8,No,4,No,No,17.12,Email
+T00595,2025-10-03,2025-10-03,Low,Security,Data Leakage Alert,HR,Americas,Sophia Wilson,Closed,1,8,No,5,No,No,23.88,Portal
+T00596,2025-07-13,2025-07-13,Medium,Hardware,Docking Station,IT,APAC,Emma Davis,Closed,7,16,No,4,No,No,119.5,Portal
+T00597,2025-03-27,2025-03-27,Medium,Hardware,Keyboard Issue,Operations,APAC,David Kumar,Closed,17,16,Yes,2,No,No,157.82,Chat
+T00598,2025-04-26,2025-04-27,Medium,Software,Application Crash,Operations,EMEA,David Kumar,Closed,25,16,Yes,2,No,Yes,582.34,Chat
+T00599,2025-08-07,2025-08-07,Low,Software,CRM Error,Finance,EMEA,Alex Brown,Closed,3,8,No,5,No,No,44.35,Chat
+T00600,2025-12-10,2025-12-10,High,Network,VPN Issue,Operations,EMEA,Emma Davis,Closed,21,24,No,5,No,No,319.92,Chat
+T00601,2025-10-17,2025-10-18,High,Software,Application Crash,Finance,Americas,David Kumar,Closed,25,24,Yes,3,No,No,415.09,Email
+T00602,2025-11-21,2025-11-21,Low,Security,Malware Alert,Finance,EMEA,Emma Davis,Closed,11,8,Yes,3,No,No,158.83,Phone
+T00603,2025-04-09,2025-04-09,Low,Hardware,Keyboard Issue,HR,APAC,Michael Chen,Closed,1,8,No,5,No,No,15.36,Email
+T00604,2025-05-13,2025-05-14,High,Hardware,Docking Station,HR,Americas,Sophia Wilson,Closed,24,24,No,5,Yes,No,227.85,Email
+T00605,2025-06-10,2025-06-10,Medium,Software,Office 365 Error,IT,Americas,Michael Chen,Closed,23,16,Yes,2,No,Yes,253.51,Email
+T00606,2025-09-25,2025-09-25,Medium,Cloud,Database Outage,HR,APAC,Sarah Lee,Closed,7,16,No,5,No,No,202.13,Portal
+T00607,2025-06-18,2025-06-19,High,Security,Unauthorized Access,Finance,APAC,David Kumar,Closed,29,24,Yes,2,No,No,431.12,Email
+T00608,2025-09-09,2025-09-09,Medium,Software,CRM Error,IT,Americas,Emma Davis,Closed,12,16,No,5,No,No,408.11,Phone
+T00609,2025-07-05,2025-07-06,Medium,Hardware,Laptop Performance,HR,Americas,Emma Davis,Closed,35,16,Yes,2,No,No,802.33,Portal
+T00610,2025-11-24,2025-11-24,Critical,Hardware,Printer Issue,IT,EMEA,John Smith,Closed,12,12,No,5,No,No,396.51,Portal
+T00611,2025-06-04,2025-06-04,Low,Network,DNS Issue,Sales,Americas,Alex Brown,Closed,9,8,Yes,4,No,Yes,138.59,Email
+T00612,2025-09-09,2025-09-10,Medium,Security,Malware Alert,HR,APAC,David Kumar,Closed,30,16,Yes,4,No,Yes,525.0,Portal
+T00613,2025-08-21,2025-08-21,Medium,Software,Teams Login Error,HR,EMEA,Emma Davis,Closed,4,16,No,5,No,No,99.86,Portal
+T00614,2025-10-22,2025-10-22,Low,Network,WiFi Outage,Operations,Americas,Alex Brown,Closed,2,8,No,5,No,No,58.8,Portal
+T00615,2025-08-20,2025-08-20,Medium,Network,DNS Issue,Sales,APAC,Sarah Lee,Closed,19,16,Yes,3,No,No,340.58,Chat
+T00616,2025-07-13,2025-07-13,Critical,Cloud,AWS Storage Failure,HR,Americas,Emma Davis,Closed,17,12,Yes,2,Yes,No,227.0,Phone
+T00617,2025-01-26,2025-01-27,Medium,Security,Malware Alert,Operations,APAC,John Smith,Closed,26,16,Yes,3,No,No,750.9,Chat
+T00618,2025-12-11,2025-12-12,Medium,Network,WiFi Outage,Sales,EMEA,Sophia Wilson,Closed,30,16,Yes,3,No,No,345.46,Phone
+T00619,2025-11-04,2025-11-04,Low,Hardware,Monitor Issue,HR,EMEA,David Kumar,Closed,3,8,No,5,No,No,43.07,Chat
+T00620,2025-05-08,2025-05-08,Medium,Security,Phishing Email,IT,APAC,Priya Nair,Closed,18,16,Yes,2,No,No,477.81,Chat
+T00621,2025-12-29,2025-12-29,Medium,Cloud,Database Outage,Sales,APAC,Sophia Wilson,Closed,23,16,Yes,2,No,No,802.98,Email
+T00622,2025-01-03,2025-01-03,Low,Cloud,Kubernetes Failure,IT,Americas,Priya Nair,Closed,9,8,Yes,3,No,Yes,307.24,Email
+T00623,2025-10-25,2025-10-25,Low,Network,Firewall Issue,HR,EMEA,Alex Brown,Closed,14,8,Yes,3,No,Yes,210.43,Portal
+T00624,2025-01-23,2025-01-23,Critical,Security,Malware Alert,IT,EMEA,David Kumar,Closed,5,12,No,5,No,No,109.79,Chat
+T00625,2025-03-26,2025-03-26,Low,Security,Unauthorized Access,HR,APAC,Michael Chen,Closed,1,8,No,5,No,No,9.47,Phone
+T00626,2025-01-19,2025-01-19,Medium,Network,Firewall Issue,HR,EMEA,John Smith,Closed,8,16,No,5,No,No,159.37,Chat
+T00627,2025-08-23,2025-08-23,Medium,Network,VPN Issue,Finance,APAC,David Kumar,Closed,11,16,No,5,No,No,255.28,Phone
+T00628,2025-10-26,2025-10-26,Critical,Software,Application Crash,IT,APAC,Emma Davis,Closed,14,12,Yes,3,No,Yes,447.42,Email
+T00629,2025-05-26,2025-05-26,Medium,Software,Office 365 Error,Sales,APAC,John Smith,Closed,1,16,No,4,No,No,10.19,Chat
+T00630,2025-08-21,2025-08-22,Medium,Hardware,Docking Station,Sales,APAC,Sophia Wilson,Closed,27,16,Yes,2,No,No,906.67,Phone
+T00631,2025-04-19,2025-04-20,High,Hardware,Laptop Performance,HR,EMEA,David Kumar,Closed,27,24,Yes,4,Yes,Yes,919.52,Chat
+T00632,2025-02-15,2025-02-15,Low,Network,WiFi Outage,IT,EMEA,Michael Chen,Closed,1,8,No,5,No,No,11.26,Chat
+T00633,2025-08-10,2025-08-11,High,Hardware,Docking Station,Operations,APAC,Sophia Wilson,Closed,33,24,Yes,3,No,No,688.51,Chat
+T00634,2025-02-16,2025-02-17,High,Hardware,Docking Station,IT,Americas,Alex Brown,Closed,34,24,Yes,3,Yes,Yes,743.25,Chat
+T00635,2025-12-13,2025-12-13,Low,Network,Firewall Issue,Sales,EMEA,Alex Brown,Closed,1,8,No,4,No,No,10.14,Chat
+T00636,2025-06-03,2025-06-03,Low,Network,DNS Issue,Operations,EMEA,David Kumar,Closed,6,8,No,5,No,No,140.1,Email
+T00637,2025-01-24,2025-01-24,Medium,Cloud,Kubernetes Failure,Sales,EMEA,Sarah Lee,Closed,6,16,No,5,No,No,172.52,Email
+T00638,2025-02-28,2025-03-01,High,Security,Unauthorized Access,IT,APAC,Sarah Lee,Closed,28,24,Yes,3,No,No,461.34,Chat
+T00639,2025-12-10,2025-12-11,Medium,Hardware,Laptop Performance,Finance,APAC,Sarah Lee,Closed,30,16,Yes,3,No,No,946.01,Email
+T00640,2025-08-11,2025-08-11,Medium,Software,Office 365 Error,HR,APAC,Sophia Wilson,Closed,11,16,No,4,No,No,224.67,Chat
+T00641,2025-12-03,2025-12-03,Critical,Cloud,Kubernetes Failure,IT,EMEA,Sarah Lee,Closed,7,12,No,5,Yes,No,81.54,Phone
+T00642,2025-02-27,2025-02-28,High,Network,VPN Issue,IT,Americas,Michael Chen,Closed,42,24,Yes,3,Yes,No,1290.93,Phone
+T00643,2025-02-14,2025-02-14,Low,Security,Unauthorized Access,Finance,Americas,Sophia Wilson,Closed,6,8,No,5,No,No,204.15,Chat
+T00644,2025-01-11,2025-01-11,High,Cloud,AWS Storage Failure,Sales,Americas,Alex Brown,Closed,22,24,No,5,Yes,No,374.31,Email
+T00645,2025-11-19,2025-11-20,High,Security,Data Leakage Alert,HR,EMEA,Alex Brown,Closed,32,24,Yes,3,No,No,456.37,Email
+T00646,2025-09-28,2025-09-28,Low,Cloud,Database Outage,Sales,Americas,Alex Brown,Closed,1,8,No,4,No,No,32.01,Email
+T00647,2025-09-11,2025-09-11,Medium,Hardware,Keyboard Issue,Finance,EMEA,Priya Nair,Closed,13,16,No,5,No,No,257.78,Phone
+T00648,2025-10-28,2025-10-28,Critical,Hardware,Docking Station,Finance,EMEA,Alex Brown,Closed,9,12,No,5,No,No,274.44,Portal
+T00649,2025-08-30,2025-08-30,High,Network,WiFi Outage,Finance,APAC,Emma Davis,Closed,17,24,No,5,Yes,No,414.04,Email
+T00650,2025-08-01,2025-08-01,Critical,Security,Malware Alert,Finance,Americas,John Smith,Closed,20,12,Yes,3,Yes,No,635.69,Portal
+T00651,2025-12-13,2025-12-13,Low,Cloud,Azure VM Failure,Operations,APAC,Sarah Lee,Closed,8,8,No,4,No,No,185.39,Chat
+T00652,2025-05-13,2025-05-13,Critical,Hardware,Printer Issue,Finance,Americas,Sarah Lee,Closed,5,12,No,5,Yes,No,165.1,Chat
+T00653,2025-08-23,2025-08-23,Critical,Software,Password Reset,Operations,APAC,Sarah Lee,Closed,12,12,No,4,Yes,No,300.1,Phone
+T00654,2025-07-05,2025-07-05,Low,Hardware,Keyboard Issue,HR,APAC,Priya Nair,Closed,1,8,No,5,No,No,17.03,Phone
+T00655,2025-03-04,2025-03-04,High,Security,Data Leakage Alert,Sales,EMEA,Michael Chen,Closed,21,24,No,5,Yes,No,318.83,Chat
+T00656,2025-07-04,2025-07-04,Medium,Network,WiFi Outage,Finance,APAC,Alex Brown,Closed,13,16,No,5,No,No,249.11,Chat
+T00657,2025-08-23,2025-08-23,Critical,Cloud,Database Outage,Operations,APAC,Sarah Lee,Closed,16,12,Yes,2,No,No,301.51,Phone
+T00658,2025-08-11,2025-08-11,Low,Software,Teams Login Error,Operations,EMEA,Alex Brown,Closed,5,8,No,4,No,No,94.27,Portal
+T00659,2025-06-10,2025-06-10,Critical,Software,CRM Error,IT,EMEA,Emma Davis,Closed,17,12,Yes,3,No,No,543.44,Chat
+T00660,2025-04-12,2025-04-12,High,Software,Password Reset,IT,Americas,Michael Chen,Closed,11,24,No,5,No,No,151.48,Portal
+T00661,2025-09-24,2025-09-24,Low,Network,VPN Issue,Finance,EMEA,Alex Brown,Closed,14,8,Yes,3,No,Yes,388.69,Portal
+T00662,2025-05-13,2025-05-13,Medium,Hardware,Printer Issue,HR,EMEA,David Kumar,Closed,16,16,No,4,No,No,375.29,Email
+T00663,2025-08-21,2025-08-21,Low,Network,WiFi Outage,IT,Americas,Emma Davis,Closed,5,8,No,5,No,No,54.21,Phone
+T00664,2025-07-04,2025-07-04,Medium,Network,Firewall Issue,HR,APAC,John Smith,Closed,19,16,Yes,4,No,No,607.81,Chat
+T00665,2025-04-20,2025-04-20,Medium,Hardware,Docking Station,Sales,Americas,Sophia Wilson,Closed,6,16,No,5,No,No,151.11,Chat
+T00666,2025-12-19,2025-12-19,Critical,Security,Data Leakage Alert,Finance,Americas,Michael Chen,Closed,15,12,Yes,3,No,No,172.4,Email
+T00667,2025-12-22,2025-12-22,Low,Security,Phishing Email,HR,Americas,Alex Brown,Closed,6,8,No,5,No,No,65.87,Portal
+T00668,2025-10-20,2025-10-20,Low,Cloud,AWS Storage Failure,Sales,EMEA,Priya Nair,Closed,1,8,No,4,No,No,16.19,Chat
+T00669,2025-01-15,2025-01-16,High,Network,Firewall Issue,Finance,APAC,Sophia Wilson,Closed,45,24,Yes,3,Yes,Yes,1025.26,Email
+T00670,2025-01-23,2025-01-23,Medium,Cloud,Database Outage,Sales,EMEA,Sophia Wilson,Closed,19,16,Yes,4,No,Yes,542.88,Chat
+T00671,2025-08-19,2025-08-19,Medium,Network,DNS Issue,IT,APAC,Alex Brown,Closed,23,16,Yes,4,No,No,519.96,Chat
+T00672,2025-05-23,2025-05-23,Medium,Network,VPN Issue,Operations,Americas,Sarah Lee,Closed,20,16,Yes,3,No,Yes,263.91,Email
+T00673,2025-10-19,2025-10-20,Medium,Security,Phishing Email,HR,EMEA,Emma Davis,Closed,28,16,Yes,3,No,Yes,851.25,Chat
+T00674,2025-02-13,2025-02-14,High,Cloud,Database Outage,Operations,APAC,Sophia Wilson,Closed,40,24,Yes,4,Yes,No,791.98,Chat
+T00675,2025-01-13,2025-01-13,High,Hardware,Keyboard Issue,Operations,APAC,David Kumar,Closed,21,24,No,4,Yes,No,271.57,Email
+T00676,2025-03-20,2025-03-20,Low,Security,Unauthorized Access,Operations,EMEA,Michael Chen,Closed,9,8,Yes,2,No,Yes,245.33,Portal
+T00677,2025-07-19,2025-07-19,Low,Network,Firewall Issue,HR,APAC,Emma Davis,Closed,9,8,Yes,2,No,Yes,191.79,Chat
+T00678,2025-02-28,2025-02-28,Low,Hardware,Keyboard Issue,HR,EMEA,John Smith,Closed,5,8,No,5,No,No,95.01,Phone
+T00679,2025-01-10,2025-01-10,Low,Cloud,Azure VM Failure,Sales,Americas,Alex Brown,Closed,7,8,No,5,No,No,140.29,Phone
+T00680,2025-03-14,2025-03-15,Medium,Network,WiFi Outage,Operations,EMEA,John Smith,Closed,24,16,Yes,4,No,Yes,718.59,Portal
+T00681,2025-12-01,2025-12-01,Critical,Software,Password Reset,IT,EMEA,Emma Davis,Closed,17,12,Yes,3,No,Yes,210.09,Email
+T00682,2025-06-03,2025-06-03,Low,Software,Teams Login Error,IT,APAC,Priya Nair,Closed,5,8,No,5,No,No,159.33,Portal
+T00683,2025-11-22,2025-11-22,Low,Security,Malware Alert,Finance,EMEA,Priya Nair,Closed,7,8,No,5,No,No,59.0,Phone
+T00684,2025-11-27,2025-11-28,Critical,Cloud,Kubernetes Failure,HR,Americas,Michael Chen,Closed,27,12,Yes,2,No,No,771.84,Email
+T00685,2025-11-29,2025-11-30,Medium,Cloud,Azure VM Failure,HR,EMEA,Alex Brown,Closed,25,16,Yes,4,No,No,461.06,Email
+T00686,2025-03-05,2025-03-05,Medium,Network,Firewall Issue,Finance,Americas,John Smith,Closed,5,16,No,4,No,No,142.39,Portal
+T00687,2025-04-09,2025-04-09,Low,Cloud,Database Outage,Sales,APAC,David Kumar,Closed,8,8,No,5,No,No,170.45,Phone
+T00688,2025-01-04,2025-01-04,Low,Security,Phishing Email,Operations,Americas,Sophia Wilson,Closed,4,8,No,5,No,No,50.41,Phone
+T00689,2025-12-04,2025-12-05,High,Cloud,AWS Storage Failure,Finance,EMEA,Emma Davis,Closed,27,24,Yes,2,No,Yes,833.95,Email
+T00690,2025-12-21,2025-12-21,Medium,Cloud,Database Outage,HR,EMEA,John Smith,Closed,16,16,No,5,No,No,496.87,Portal
+T00691,2025-08-10,2025-08-11,High,Security,Malware Alert,Sales,Americas,John Smith,Closed,32,24,Yes,4,Yes,Yes,496.13,Chat
+T00692,2025-09-30,2025-09-30,Medium,Software,Office 365 Error,Sales,APAC,John Smith,Closed,21,16,Yes,3,No,Yes,722.58,Chat
+T00693,2025-02-08,2025-02-08,Critical,Network,WiFi Outage,HR,EMEA,Alex Brown,Closed,9,12,No,4,Yes,No,215.98,Portal
+T00694,2025-05-09,2025-05-09,Low,Security,Unauthorized Access,HR,EMEA,Emma Davis,Closed,8,8,No,5,No,No,267.81,Chat
+T00695,2025-02-18,2025-02-18,Medium,Cloud,Azure VM Failure,IT,EMEA,Sarah Lee,Closed,16,16,No,4,No,No,466.1,Email
+T00696,2025-08-15,2025-08-15,Low,Cloud,Kubernetes Failure,HR,Americas,John Smith,Closed,7,8,No,4,No,No,161.7,Portal
+T00697,2025-07-15,2025-07-15,Medium,Cloud,Kubernetes Failure,IT,EMEA,Sophia Wilson,Closed,15,16,No,4,No,No,442.04,Email
+T00698,2025-06-23,2025-06-24,Medium,Software,Office 365 Error,Operations,APAC,Sarah Lee,Closed,25,16,Yes,3,No,Yes,208.29,Email
+T00699,2025-10-31,2025-10-31,High,Network,WiFi Outage,IT,Americas,Sophia Wilson,Closed,15,24,No,5,Yes,No,218.48,Email
+T00700,2025-01-31,2025-01-31,Low,Cloud,Kubernetes Failure,Sales,Americas,Michael Chen,Closed,4,8,No,5,No,No,47.92,Portal
+T00701,2025-11-05,2025-11-05,Low,Hardware,Printer Issue,HR,APAC,John Smith,Closed,1,8,No,5,No,No,19.4,Phone
+T00702,2025-04-13,2025-04-13,Medium,Network,VPN Issue,Finance,Americas,Sophia Wilson,Closed,13,16,No,5,No,No,347.87,Chat
+T00703,2025-11-04,2025-11-04,Medium,Cloud,Database Outage,HR,EMEA,John Smith,Closed,8,16,No,5,No,No,171.12,Email
+T00704,2025-11-24,2025-11-24,Low,Network,Firewall Issue,Finance,EMEA,Priya Nair,Closed,4,8,No,5,No,No,119.19,Chat
+T00705,2025-04-16,2025-04-16,Medium,Software,CRM Error,Finance,EMEA,Sophia Wilson,Closed,21,16,Yes,2,No,Yes,525.97,Portal
+T00706,2025-01-23,2025-01-23,Critical,Network,WiFi Outage,Finance,APAC,David Kumar,Closed,11,12,No,5,Yes,No,188.93,Phone
+T00707,2025-04-02,2025-04-02,Low,Network,DNS Issue,IT,Americas,Sarah Lee,Closed,7,8,No,5,No,No,119.95,Phone
+T00708,2025-06-06,2025-06-06,Medium,Hardware,Laptop Performance,Operations,Americas,Alex Brown,Closed,13,16,No,5,No,No,412.31,Email
+T00709,2025-03-02,2025-03-02,Low,Network,WiFi Outage,Sales,Americas,Alex Brown,Closed,8,8,No,5,No,No,275.03,Phone
+T00710,2025-01-24,2025-01-25,High,Cloud,AWS Storage Failure,Finance,EMEA,Emma Davis,Closed,32,24,Yes,3,Yes,No,1010.14,Chat
+T00711,2025-04-18,2025-04-19,High,Security,Phishing Email,IT,Americas,Sophia Wilson,Closed,27,24,Yes,3,Yes,No,735.4,Chat
+T00712,2025-09-11,2025-09-11,Medium,Cloud,Kubernetes Failure,Finance,APAC,Emma Davis,Closed,21,16,Yes,2,No,No,657.42,Chat
+T00713,2025-04-22,2025-04-22,Low,Security,Unauthorized Access,Finance,APAC,David Kumar,Closed,10,8,Yes,2,No,No,220.08,Phone
+T00714,2025-10-26,2025-10-26,Low,Cloud,Database Outage,IT,EMEA,Alex Brown,Closed,5,8,No,5,No,No,95.21,Chat
+T00715,2025-06-12,2025-06-12,Low,Software,Teams Login Error,Sales,APAC,David Kumar,Closed,4,8,No,4,No,No,123.0,Email
+T00716,2025-05-22,2025-05-22,Critical,Software,Password Reset,Sales,APAC,Emma Davis,Closed,12,12,No,4,No,No,159.71,Portal
+T00717,2025-05-09,2025-05-09,Low,Hardware,Monitor Issue,HR,EMEA,David Kumar,Closed,3,8,No,5,No,No,90.61,Chat
+T00718,2025-07-27,2025-07-27,High,Software,Office 365 Error,IT,APAC,Emma Davis,Closed,1,24,No,5,Yes,No,20.81,Chat
+T00719,2025-08-25,2025-08-25,Low,Software,CRM Error,Finance,EMEA,Sophia Wilson,Closed,9,8,Yes,4,No,Yes,163.05,Phone
+T00720,2025-06-06,2025-06-06,Critical,Software,Office 365 Error,Sales,APAC,Alex Brown,Closed,5,12,No,5,No,No,132.58,Chat
+T00721,2025-12-20,2025-12-21,Medium,Hardware,Docking Station,Finance,EMEA,Alex Brown,Closed,28,16,Yes,3,No,No,378.38,Chat
+T00722,2025-02-02,2025-02-02,Medium,Network,Firewall Issue,Sales,Americas,Sophia Wilson,Closed,16,16,No,4,No,No,404.05,Portal
+T00723,2025-02-17,2025-02-17,Low,Cloud,AWS Storage Failure,HR,APAC,Emma Davis,Closed,13,8,Yes,4,No,Yes,423.88,Chat
+T00724,2025-05-26,2025-05-26,Low,Hardware,Docking Station,IT,APAC,Priya Nair,Closed,8,8,No,4,No,No,176.0,Phone
+T00725,2025-06-17,2025-06-18,High,Security,Data Leakage Alert,IT,Americas,Sarah Lee,Closed,24,24,No,5,No,No,810.9,Phone
+T00726,2025-03-08,2025-03-09,High,Hardware,Keyboard Issue,Finance,Americas,David Kumar,Closed,26,24,Yes,4,Yes,No,401.36,Email
+T00727,2025-03-15,2025-03-15,Medium,Security,Unauthorized Access,IT,EMEA,John Smith,Closed,1,16,No,5,No,No,27.91,Portal
+T00728,2025-11-27,2025-11-27,High,Security,Malware Alert,IT,Americas,Michael Chen,Closed,17,24,No,5,No,No,250.35,Chat
+T00729,2025-08-23,2025-08-23,Medium,Network,VPN Issue,Finance,EMEA,David Kumar,Closed,1,16,No,5,No,No,26.0,Email
+T00730,2025-12-24,2025-12-25,High,Network,Firewall Issue,Operations,APAC,Priya Nair,Closed,39,24,Yes,4,Yes,Yes,843.13,Portal
+T00731,2025-07-29,2025-07-29,Medium,Hardware,Monitor Issue,IT,EMEA,Priya Nair,Closed,5,16,No,4,No,No,140.7,Phone
+T00732,2025-07-23,2025-07-23,Low,Hardware,Printer Issue,Sales,Americas,Sophia Wilson,Closed,7,8,No,5,No,No,147.62,Email
+T00733,2025-02-12,2025-02-12,Medium,Network,Firewall Issue,Finance,APAC,Sarah Lee,Closed,23,16,Yes,3,No,Yes,366.66,Chat
+T00734,2025-03-28,2025-03-28,Low,Software,CRM Error,IT,EMEA,Michael Chen,Closed,12,8,Yes,3,No,Yes,327.47,Phone
+T00735,2025-08-15,2025-08-15,Medium,Cloud,Azure VM Failure,Operations,APAC,John Smith,Closed,9,16,No,4,No,No,259.7,Phone
+T00736,2025-05-08,2025-05-08,Medium,Network,WiFi Outage,HR,EMEA,John Smith,Closed,18,16,Yes,2,No,Yes,307.84,Phone
+T00737,2025-12-15,2025-12-15,Medium,Network,VPN Issue,Finance,APAC,Alex Brown,Closed,18,16,Yes,3,No,Yes,540.39,Portal
+T00738,2025-10-15,2025-10-15,Medium,Cloud,AWS Storage Failure,IT,APAC,Emma Davis,Closed,1,16,No,5,No,No,13.77,Portal
+T00739,2025-06-15,2025-06-15,Low,Security,Malware Alert,HR,Americas,David Kumar,Closed,9,8,Yes,3,No,No,82.68,Phone
+T00740,2025-07-30,2025-07-30,Low,Cloud,Kubernetes Failure,Operations,Americas,Michael Chen,Closed,7,8,No,4,No,No,103.62,Email
+T00741,2025-11-04,2025-11-04,Low,Security,Unauthorized Access,IT,APAC,Priya Nair,Closed,4,8,No,5,No,No,33.91,Chat
+T00742,2025-07-15,2025-07-16,Medium,Network,VPN Issue,HR,Americas,Sarah Lee,Closed,24,16,Yes,3,No,No,345.18,Chat
+T00743,2025-05-05,2025-05-05,Medium,Software,Teams Login Error,IT,APAC,John Smith,Closed,9,16,No,5,No,No,129.85,Chat
+T00744,2025-06-18,2025-06-18,Low,Hardware,Printer Issue,Sales,APAC,Emma Davis,Closed,9,8,Yes,4,No,No,155.28,Phone
+T00745,2025-10-04,2025-10-04,Low,Network,WiFi Outage,Finance,EMEA,John Smith,Closed,4,8,No,5,No,No,38.98,Chat
+T00746,2025-02-05,2025-02-05,Critical,Software,Teams Login Error,Finance,APAC,Michael Chen,Closed,7,12,No,5,Yes,No,100.66,Email
+T00747,2025-08-07,2025-08-07,High,Hardware,Monitor Issue,Operations,APAC,David Kumar,Closed,20,24,No,5,No,No,471.27,Phone
+T00748,2025-05-20,2025-05-20,High,Security,Phishing Email,IT,EMEA,Michael Chen,Closed,12,24,No,5,No,No,239.01,Chat
+T00749,2025-03-21,2025-03-21,High,Security,Phishing Email,Sales,Americas,Michael Chen,Closed,22,24,No,4,Yes,No,328.83,Chat
+T00750,2025-06-06,2025-06-06,Medium,Security,Data Leakage Alert,Sales,APAC,Sophia Wilson,Closed,5,16,No,4,No,No,66.42,Phone
+T00751,2025-01-03,2025-01-03,Low,Cloud,Database Outage,Sales,EMEA,Sophia Wilson,Closed,1,8,No,5,No,No,16.31,Email
+T00752,2025-07-29,2025-07-29,High,Software,Office 365 Error,Finance,EMEA,David Kumar,Closed,23,24,No,5,No,No,500.47,Chat
+T00753,2025-11-22,2025-11-23,Medium,Software,Office 365 Error,IT,APAC,Priya Nair,Closed,26,16,Yes,3,No,Yes,697.62,Phone
+T00754,2025-05-14,2025-05-14,Medium,Network,DNS Issue,Operations,Americas,Michael Chen,Closed,8,16,No,5,No,No,66.66,Email
+T00755,2025-11-26,2025-11-26,High,Security,Data Leakage Alert,Operations,APAC,Alex Brown,Closed,12,24,No,4,Yes,No,364.84,Portal
+T00756,2025-12-21,2025-12-21,Low,Cloud,Kubernetes Failure,IT,Americas,Sarah Lee,Closed,1,8,No,5,No,No,10.95,Portal
+T00757,2025-03-15,2025-03-15,Low,Network,Firewall Issue,IT,APAC,Sarah Lee,Closed,7,8,No,5,No,No,69.2,Chat
+T00758,2025-09-26,2025-09-26,Medium,Hardware,Keyboard Issue,Finance,EMEA,Michael Chen,Closed,13,16,No,5,No,No,351.12,Phone
+T00759,2025-09-07,2025-09-07,Low,Software,Office 365 Error,HR,Americas,Michael Chen,Closed,4,8,No,5,No,No,119.39,Phone
+T00760,2025-05-13,2025-05-13,Critical,Security,Data Leakage Alert,Finance,APAC,David Kumar,Closed,9,12,No,4,Yes,No,163.79,Portal
+T00761,2025-02-02,2025-02-02,Low,Cloud,AWS Storage Failure,HR,APAC,David Kumar,Closed,1,8,No,4,No,No,28.3,Email
+T00762,2025-12-07,2025-12-07,Medium,Software,Password Reset,Operations,APAC,Alex Brown,Closed,16,16,No,5,No,No,388.49,Portal
+T00763,2025-09-06,2025-09-06,Medium,Hardware,Docking Station,Sales,APAC,Priya Nair,Closed,7,16,No,5,No,No,181.7,Chat
+T00764,2025-11-09,2025-11-09,Low,Hardware,Laptop Performance,HR,EMEA,Alex Brown,Closed,8,8,No,4,No,No,220.65,Phone
+T00765,2025-01-14,2025-01-15,Medium,Cloud,Database Outage,Sales,EMEA,Sophia Wilson,Closed,27,16,Yes,3,No,No,697.31,Email
+T00766,2025-11-23,2025-11-23,Critical,Hardware,Printer Issue,HR,Americas,Priya Nair,Closed,7,12,No,5,No,No,100.14,Chat
+T00767,2025-07-24,2025-07-24,High,Software,CRM Error,HR,Americas,Alex Brown,Closed,1,24,No,5,No,No,24.39,Phone
+T00768,2025-09-24,2025-09-25,High,Cloud,Azure VM Failure,IT,APAC,David Kumar,Closed,33,24,Yes,3,No,Yes,1062.7,Email
+T00769,2025-09-04,2025-09-04,Medium,Network,WiFi Outage,HR,EMEA,John Smith,Closed,17,16,Yes,2,No,Yes,562.41,Portal
+T00770,2025-07-16,2025-07-17,High,Network,DNS Issue,HR,Americas,Michael Chen,Closed,41,24,Yes,4,No,Yes,1208.66,Portal
+T00771,2025-04-25,2025-04-25,Critical,Cloud,Azure VM Failure,Operations,EMEA,Emma Davis,Closed,7,12,No,5,Yes,No,104.97,Portal
+T00772,2025-02-14,2025-02-14,Low,Hardware,Docking Station,HR,Americas,Priya Nair,Closed,4,8,No,5,No,No,45.76,Portal
+T00773,2025-07-14,2025-07-14,Medium,Software,CRM Error,IT,EMEA,Priya Nair,Closed,23,16,Yes,4,No,Yes,506.77,Phone
+T00774,2025-02-24,2025-02-24,Medium,Cloud,Kubernetes Failure,Finance,EMEA,Emma Davis,Closed,18,16,Yes,3,No,No,474.47,Phone
+T00775,2025-11-04,2025-11-04,Low,Software,Application Crash,Sales,Americas,Sophia Wilson,Closed,5,8,No,4,No,No,125.2,Phone
+T00776,2025-09-11,2025-09-11,Low,Security,Phishing Email,Finance,Americas,Emma Davis,Closed,11,8,Yes,3,No,Yes,296.02,Email
+T00777,2025-04-02,2025-04-03,High,Security,Malware Alert,HR,Americas,Alex Brown,Closed,39,24,Yes,3,No,No,1025.83,Portal
+T00778,2025-07-20,2025-07-20,Medium,Cloud,Database Outage,Finance,Americas,Alex Brown,Closed,13,16,No,5,No,No,138.16,Portal
+T00779,2025-10-25,2025-10-25,High,Software,CRM Error,IT,Americas,Sophia Wilson,Closed,14,24,No,5,No,No,451.15,Phone
+T00780,2025-04-22,2025-04-22,High,Network,VPN Issue,Operations,APAC,Michael Chen,Closed,23,24,No,5,No,No,774.2,Chat
+T00781,2025-12-14,2025-12-14,High,Software,Password Reset,HR,Americas,Priya Nair,Closed,13,24,No,4,No,No,444.37,Chat
+T00782,2025-05-06,2025-05-06,Low,Network,Firewall Issue,Sales,Americas,Michael Chen,Closed,10,8,Yes,4,No,No,289.48,Email
+T00783,2025-08-26,2025-08-26,High,Security,Malware Alert,HR,APAC,Sarah Lee,Closed,12,24,No,4,Yes,No,254.51,Phone
+T00784,2025-01-12,2025-01-12,Medium,Cloud,Kubernetes Failure,HR,Americas,Michael Chen,Closed,7,16,No,5,No,No,128.57,Chat
+T00785,2025-06-02,2025-06-03,Medium,Software,CRM Error,IT,Americas,John Smith,Closed,30,16,Yes,3,No,No,690.41,Chat
+T00786,2025-02-02,2025-02-02,Medium,Cloud,Azure VM Failure,HR,APAC,Michael Chen,Closed,21,16,Yes,3,No,Yes,482.53,Portal
+T00787,2025-03-04,2025-03-04,Low,Cloud,AWS Storage Failure,HR,APAC,Sarah Lee,Closed,6,8,No,5,No,No,130.0,Portal
+T00788,2025-10-06,2025-10-06,Low,Software,Teams Login Error,HR,Americas,David Kumar,Closed,5,8,No,5,No,No,128.99,Chat
+T00789,2025-03-13,2025-03-14,Medium,Hardware,Docking Station,HR,Americas,John Smith,Closed,37,16,Yes,3,No,Yes,332.7,Phone
+T00790,2025-06-03,2025-06-03,High,Network,WiFi Outage,Operations,EMEA,David Kumar,Closed,1,24,No,5,Yes,No,27.69,Chat
+T00791,2025-02-08,2025-02-08,Medium,Hardware,Keyboard Issue,HR,EMEA,Alex Brown,Closed,11,16,No,5,No,No,367.24,Phone
+T00792,2025-10-02,2025-10-02,Low,Hardware,Monitor Issue,Operations,Americas,Michael Chen,Closed,5,8,No,5,No,No,96.66,Phone
+T00793,2025-06-11,2025-06-11,Critical,Security,Data Leakage Alert,Sales,APAC,Sarah Lee,Closed,18,12,Yes,2,No,Yes,304.07,Email
+T00794,2025-07-05,2025-07-05,Critical,Hardware,Monitor Issue,Sales,APAC,Sarah Lee,Closed,12,12,No,5,No,No,413.35,Phone
+T00795,2025-07-13,2025-07-13,Critical,Software,Teams Login Error,HR,Americas,Priya Nair,Closed,1,12,No,5,No,No,22.89,Email
+T00796,2025-01-25,2025-01-25,Low,Security,Unauthorized Access,Operations,Americas,Alex Brown,Closed,5,8,No,5,No,No,104.38,Phone
+T00797,2025-05-13,2025-05-13,Low,Cloud,AWS Storage Failure,HR,Americas,Priya Nair,Closed,5,8,No,5,No,No,135.51,Phone
+T00798,2025-12-14,2025-12-14,Medium,Security,Unauthorized Access,Sales,EMEA,David Kumar,Closed,10,16,No,5,No,No,154.47,Chat
+T00799,2025-09-24,2025-09-24,Critical,Network,DNS Issue,IT,EMEA,Sarah Lee,Closed,9,12,No,5,Yes,No,90.64,Phone
+T00800,2025-02-17,2025-02-17,Low,Software,Password Reset,Operations,EMEA,John Smith,Closed,5,8,No,5,No,No,169.89,Chat
+T00801,2025-12-13,2025-12-13,Medium,Network,Firewall Issue,IT,APAC,Emma Davis,Closed,2,16,No,4,No,No,65.19,Email
+T00802,2025-08-06,2025-08-06,High,Hardware,Monitor Issue,Operations,EMEA,Michael Chen,Closed,21,24,No,4,Yes,No,267.12,Portal
+T00803,2025-03-10,2025-03-10,Medium,Software,Office 365 Error,Sales,Americas,Emma Davis,Closed,9,16,No,4,No,No,274.11,Email
+T00804,2025-05-29,2025-05-29,Low,Hardware,Laptop Performance,HR,Americas,Alex Brown,Closed,7,8,No,5,No,No,97.1,Portal
+T00805,2025-11-26,2025-11-27,Medium,Software,Office 365 Error,Sales,APAC,Sophia Wilson,Closed,26,16,Yes,2,No,No,417.44,Email
+T00806,2025-01-03,2025-01-03,Low,Network,Firewall Issue,HR,APAC,Alex Brown,Closed,2,8,No,5,No,No,42.57,Email
+T00807,2025-09-28,2025-09-28,Medium,Network,Firewall Issue,Sales,APAC,Sophia Wilson,Closed,20,16,Yes,3,No,No,362.13,Portal
+T00808,2025-08-08,2025-08-09,High,Cloud,Database Outage,IT,Americas,Sophia Wilson,Closed,31,24,Yes,2,Yes,Yes,544.08,Chat
+T00809,2025-01-03,2025-01-03,Medium,Network,VPN Issue,IT,Americas,Priya Nair,Closed,15,16,No,5,No,No,484.9,Phone
+T00810,2025-12-08,2025-12-08,Low,Security,Malware Alert,IT,EMEA,Sophia Wilson,Closed,8,8,No,4,No,No,236.76,Phone
+T00811,2025-06-16,2025-06-17,High,Security,Data Leakage Alert,Finance,APAC,Priya Nair,Closed,42,24,Yes,2,Yes,Yes,395.01,Portal
+T00812,2025-08-08,2025-08-08,Critical,Software,Office 365 Error,Sales,EMEA,Sophia Wilson,Closed,21,12,Yes,4,Yes,No,308.47,Phone
+T00813,2025-09-19,2025-09-19,Low,Hardware,Printer Issue,IT,APAC,Sophia Wilson,Closed,15,8,Yes,3,No,Yes,403.96,Phone
+T00814,2025-04-07,2025-04-07,Critical,Cloud,AWS Storage Failure,HR,APAC,Alex Brown,Closed,1,12,No,5,Yes,No,15.39,Phone
+T00815,2025-03-16,2025-03-16,Medium,Cloud,AWS Storage Failure,Operations,EMEA,Emma Davis,Closed,16,16,No,5,No,No,223.81,Chat
+T00816,2025-09-03,2025-09-03,Low,Security,Phishing Email,HR,EMEA,Priya Nair,Closed,7,8,No,5,No,No,109.03,Portal
+T00817,2025-12-31,2025-12-31,Medium,Hardware,Printer Issue,Finance,EMEA,Sophia Wilson,Closed,14,16,No,5,No,No,217.9,Email
+T00818,2025-08-09,2025-08-09,Low,Security,Malware Alert,Sales,APAC,Sarah Lee,Closed,7,8,No,5,No,No,182.43,Phone
+T00819,2025-06-19,2025-06-19,Medium,Hardware,Docking Station,Finance,Americas,Alex Brown,Closed,6,16,No,5,No,No,62.13,Email
+T00820,2025-03-08,2025-03-08,Medium,Cloud,Azure VM Failure,Operations,Americas,Emma Davis,Closed,13,16,No,4,No,No,171.72,Chat
+T00821,2025-02-20,2025-02-20,Low,Cloud,Database Outage,Operations,Americas,Michael Chen,Closed,5,8,No,5,No,No,45.91,Phone
+T00822,2025-08-03,2025-08-03,Medium,Hardware,Docking Station,Sales,EMEA,Sarah Lee,Closed,23,16,Yes,3,No,No,226.05,Chat
+T00823,2025-09-26,2025-09-26,Critical,Cloud,Azure VM Failure,Sales,APAC,John Smith,Closed,13,12,Yes,3,Yes,No,277.75,Email
+T00824,2025-03-26,2025-03-26,Medium,Cloud,Kubernetes Failure,IT,Americas,David Kumar,Closed,19,16,Yes,4,No,Yes,246.43,Phone
+T00825,2025-10-20,2025-10-20,Low,Software,Application Crash,Sales,APAC,David Kumar,Closed,1,8,No,5,No,No,27.12,Email
+T00826,2025-03-29,2025-03-29,Low,Cloud,AWS Storage Failure,HR,Americas,Michael Chen,Closed,8,8,No,5,No,No,267.48,Portal
+T00827,2025-03-10,2025-03-10,Low,Software,Teams Login Error,HR,Americas,Priya Nair,Closed,9,8,Yes,2,No,No,150.87,Portal
+T00828,2025-03-10,2025-03-10,Medium,Cloud,Database Outage,HR,Americas,John Smith,Closed,14,16,No,5,No,No,423.45,Phone
+T00829,2025-05-24,2025-05-24,Low,Software,Application Crash,IT,Americas,David Kumar,Closed,2,8,No,4,No,No,62.98,Phone
+T00830,2025-08-15,2025-08-15,Low,Hardware,Monitor Issue,Finance,EMEA,Emma Davis,Closed,1,8,No,5,No,No,27.7,Chat
+T00831,2025-07-08,2025-07-08,Low,Security,Phishing Email,Finance,Americas,Sophia Wilson,Closed,2,8,No,5,No,No,66.94,Phone
+T00832,2025-11-28,2025-11-28,Low,Hardware,Monitor Issue,IT,Americas,Emma Davis,Closed,7,8,No,5,No,No,69.13,Email
+T00833,2025-08-07,2025-08-07,Low,Security,Phishing Email,Operations,APAC,Alex Brown,Closed,6,8,No,4,No,No,110.21,Email
+T00834,2025-01-07,2025-01-07,High,Software,Teams Login Error,HR,EMEA,Michael Chen,Closed,15,24,No,5,Yes,No,440.92,Email
+T00835,2025-02-24,2025-02-24,Medium,Hardware,Printer Issue,Finance,EMEA,Priya Nair,Closed,17,16,Yes,4,No,No,206.92,Email
+T00836,2025-10-06,2025-10-06,Medium,Cloud,Azure VM Failure,HR,APAC,David Kumar,Closed,23,16,Yes,2,No,Yes,501.67,Chat
+T00837,2025-03-14,2025-03-14,Low,Network,VPN Issue,Sales,APAC,Alex Brown,Closed,7,8,No,5,No,No,185.8,Email
+T00838,2025-09-09,2025-09-09,Low,Software,Teams Login Error,Sales,EMEA,Sarah Lee,Closed,11,8,Yes,2,No,No,123.15,Email
+T00839,2025-01-23,2025-01-23,Medium,Network,Firewall Issue,Finance,Americas,David Kumar,Closed,3,16,No,5,No,No,74.61,Portal
+T00840,2025-06-28,2025-06-28,High,Hardware,Keyboard Issue,Sales,Americas,Sarah Lee,Closed,18,24,No,5,Yes,No,562.79,Phone
+T00841,2025-12-02,2025-12-02,Low,Network,Firewall Issue,HR,APAC,Alex Brown,Closed,1,8,No,5,No,No,33.91,Portal
+T00842,2025-03-16,2025-03-16,Low,Network,WiFi Outage,Sales,EMEA,Sophia Wilson,Closed,9,8,Yes,4,No,No,188.95,Chat
+T00843,2025-11-05,2025-11-06,High,Hardware,Monitor Issue,IT,EMEA,Sophia Wilson,Closed,27,24,Yes,3,No,Yes,496.39,Chat
+T00844,2025-09-27,2025-09-27,Medium,Network,VPN Issue,Sales,APAC,Emma Davis,Closed,3,16,No,5,No,No,104.51,Email
+T00845,2025-07-05,2025-07-05,Medium,Network,VPN Issue,Sales,EMEA,Michael Chen,Closed,21,16,Yes,3,No,No,305.5,Phone
+T00846,2025-01-29,2025-01-30,High,Software,Teams Login Error,HR,Americas,Alex Brown,Closed,25,24,Yes,4,No,Yes,673.45,Email
+T00847,2025-09-02,2025-09-03,High,Network,VPN Issue,HR,APAC,Alex Brown,Closed,25,24,Yes,3,Yes,Yes,517.09,Phone
+T00848,2025-09-28,2025-09-28,Medium,Hardware,Keyboard Issue,Sales,EMEA,John Smith,Closed,17,16,Yes,4,No,No,187.07,Email
+T00849,2025-11-25,2025-11-25,Low,Network,WiFi Outage,Operations,Americas,David Kumar,Closed,14,8,Yes,4,No,No,380.14,Chat
+T00850,2025-03-22,2025-03-22,Low,Software,Application Crash,Finance,Americas,Emma Davis,Closed,7,8,No,5,No,No,131.68,Email
+T00851,2025-04-23,2025-04-23,Medium,Cloud,Azure VM Failure,IT,EMEA,Michael Chen,Closed,18,16,Yes,3,No,Yes,534.42,Chat
+T00852,2025-04-10,2025-04-10,Low,Software,Password Reset,Operations,EMEA,John Smith,Closed,3,8,No,5,No,No,43.4,Phone
+T00853,2025-10-05,2025-10-05,Low,Network,VPN Issue,HR,APAC,David Kumar,Closed,7,8,No,5,No,No,72.07,Email
+T00854,2025-10-16,2025-10-16,Critical,Security,Phishing Email,Sales,APAC,David Kumar,Closed,5,12,No,4,Yes,No,172.37,Portal
+T00855,2025-07-23,2025-07-23,Medium,Hardware,Keyboard Issue,Sales,EMEA,Sarah Lee,Closed,11,16,No,4,No,No,237.15,Phone
+T00856,2025-01-13,2025-01-13,Medium,Security,Data Leakage Alert,Sales,APAC,Michael Chen,Closed,1,16,No,4,No,No,26.42,Email
+T00857,2025-11-17,2025-11-17,Low,Network,WiFi Outage,Operations,Americas,Priya Nair,Closed,9,8,Yes,3,No,No,262.84,Portal
+T00858,2025-05-29,2025-05-29,Medium,Security,Phishing Email,Finance,APAC,Sarah Lee,Closed,3,16,No,5,No,No,101.6,Chat
+T00859,2025-02-19,2025-02-19,High,Network,DNS Issue,IT,APAC,Sophia Wilson,Closed,1,24,No,4,No,No,12.58,Portal
+T00860,2025-03-24,2025-03-24,Low,Cloud,Database Outage,HR,APAC,Michael Chen,Closed,4,8,No,5,No,No,108.75,Chat
+T00861,2025-05-13,2025-05-13,Critical,Hardware,Keyboard Issue,Operations,EMEA,John Smith,Closed,8,12,No,4,No,No,249.54,Chat
+T00862,2025-07-29,2025-07-29,High,Network,Firewall Issue,Operations,Americas,Priya Nair,Closed,16,24,No,5,No,No,164.07,Chat
+T00863,2025-09-17,2025-09-17,Medium,Software,Application Crash,Operations,APAC,Michael Chen,Closed,17,16,Yes,3,No,Yes,269.41,Phone
+T00864,2025-10-19,2025-10-19,Medium,Software,Teams Login Error,IT,Americas,Sarah Lee,Closed,14,16,No,5,No,No,243.9,Chat
+T00865,2025-11-25,2025-11-26,Medium,Security,Phishing Email,IT,APAC,Alex Brown,Closed,25,16,Yes,4,No,No,243.52,Portal
+T00866,2025-11-06,2025-11-06,Medium,Security,Phishing Email,IT,APAC,Michael Chen,Closed,21,16,Yes,3,No,No,250.51,Phone
+T00867,2025-06-13,2025-06-14,Medium,Cloud,Kubernetes Failure,IT,APAC,John Smith,Closed,27,16,Yes,4,No,Yes,848.79,Chat
+T00868,2025-05-19,2025-05-19,Low,Network,VPN Issue,HR,EMEA,Alex Brown,Closed,9,8,Yes,3,No,Yes,144.5,Chat
+T00869,2025-08-03,2025-08-03,Medium,Hardware,Monitor Issue,Sales,EMEA,Michael Chen,Closed,16,16,No,5,No,No,213.8,Chat
+T00870,2025-09-04,2025-09-04,Medium,Network,Firewall Issue,Operations,EMEA,John Smith,Closed,11,16,No,5,No,No,254.59,Phone
+T00871,2025-02-09,2025-02-09,High,Cloud,AWS Storage Failure,HR,APAC,Sophia Wilson,Closed,5,24,No,5,Yes,No,107.43,Portal
+T00872,2025-02-28,2025-03-02,High,Security,Malware Alert,IT,APAC,Sophia Wilson,Closed,53,24,Yes,2,Yes,Yes,736.85,Phone
+T00873,2025-08-04,2025-08-04,Medium,Network,Firewall Issue,Operations,APAC,Priya Nair,Closed,15,16,No,5,No,No,449.58,Email
+T00874,2025-06-04,2025-06-05,High,Cloud,Azure VM Failure,IT,EMEA,Alex Brown,Closed,29,24,Yes,4,No,No,880.47,Chat
+T00875,2025-09-25,2025-09-25,Critical,Hardware,Printer Issue,Finance,Americas,Michael Chen,Closed,16,12,Yes,3,No,No,251.13,Chat
+T00876,2025-11-21,2025-11-21,Low,Cloud,Azure VM Failure,HR,APAC,John Smith,Closed,5,8,No,4,No,No,123.2,Chat
+T00877,2025-02-23,2025-02-23,Medium,Cloud,Azure VM Failure,Sales,EMEA,Emma Davis,Closed,8,16,No,4,No,No,112.14,Chat
+T00878,2025-10-10,2025-10-10,Medium,Network,Firewall Issue,Sales,EMEA,Alex Brown,Closed,7,16,No,4,No,No,227.61,Chat
+T00879,2025-01-04,2025-01-04,Critical,Network,DNS Issue,IT,Americas,Emma Davis,Closed,9,12,No,5,Yes,No,290.75,Chat
+T00880,2025-01-17,2025-01-17,Low,Network,DNS Issue,Sales,APAC,Alex Brown,Closed,13,8,Yes,3,No,Yes,299.06,Chat
+T00881,2025-04-09,2025-04-09,Medium,Security,Phishing Email,IT,Americas,Michael Chen,Closed,17,16,Yes,3,No,No,551.01,Phone
+T00882,2025-08-12,2025-08-12,Low,Network,VPN Issue,Sales,Americas,Michael Chen,Closed,2,8,No,5,No,No,67.23,Phone
+T00883,2025-02-17,2025-02-17,Low,Security,Phishing Email,Operations,Americas,Sarah Lee,Closed,3,8,No,4,No,No,70.32,Email
+T00884,2025-03-08,2025-03-08,Critical,Hardware,Monitor Issue,Finance,EMEA,Emma Davis,Closed,4,12,No,5,Yes,No,110.44,Chat
+T00885,2025-05-14,2025-05-15,Medium,Hardware,Printer Issue,HR,EMEA,Sarah Lee,Closed,24,16,Yes,2,No,Yes,283.91,Portal
+T00886,2025-04-03,2025-04-03,Low,Security,Malware Alert,IT,APAC,Sophia Wilson,Closed,4,8,No,5,No,No,117.91,Chat
+T00887,2025-02-07,2025-02-07,Medium,Software,Teams Login Error,IT,APAC,Michael Chen,Closed,11,16,No,5,No,No,176.73,Phone
+T00888,2025-12-04,2025-12-04,Medium,Cloud,Azure VM Failure,Sales,EMEA,Sophia Wilson,Closed,7,16,No,4,No,No,244.04,Email
+T00889,2025-03-23,2025-03-23,Medium,Hardware,Printer Issue,Operations,Americas,Michael Chen,Closed,15,16,No,4,No,No,207.6,Portal
+T00890,2025-02-28,2025-03-01,High,Software,CRM Error,Finance,APAC,Michael Chen,Closed,24,24,No,5,No,No,369.34,Phone
+T00891,2025-02-17,2025-02-17,Low,Cloud,Database Outage,Operations,EMEA,Emma Davis,Closed,1,8,No,5,No,No,14.75,Phone
+T00892,2025-12-18,2025-12-19,High,Hardware,Keyboard Issue,Operations,Americas,David Kumar,Closed,26,24,Yes,2,Yes,Yes,877.54,Chat
+T00893,2025-08-10,2025-08-11,High,Security,Malware Alert,IT,APAC,Priya Nair,Closed,28,24,Yes,4,No,Yes,563.75,Email
+T00894,2025-09-19,2025-09-19,Low,Security,Malware Alert,IT,APAC,Sarah Lee,Closed,2,8,No,5,No,No,25.71,Portal
+T00895,2025-08-08,2025-08-09,High,Hardware,Monitor Issue,Finance,EMEA,Sarah Lee,Closed,37,24,Yes,3,Yes,No,983.6,Portal
+T00896,2025-04-20,2025-04-20,Medium,Hardware,Monitor Issue,IT,EMEA,Emma Davis,Closed,19,16,Yes,2,No,Yes,204.8,Portal
+T00897,2025-11-08,2025-11-08,Critical,Software,Application Crash,Sales,EMEA,Emma Davis,Closed,15,12,Yes,4,Yes,Yes,445.1,Chat
+T00898,2025-01-24,2025-01-24,Critical,Security,Phishing Email,IT,APAC,Priya Nair,Closed,6,12,No,4,No,No,86.3,Email
+T00899,2025-05-26,2025-05-26,Low,Cloud,Azure VM Failure,HR,Americas,John Smith,Closed,9,8,Yes,4,No,No,228.68,Email
+T00900,2025-08-29,2025-08-29,Low,Security,Malware Alert,Sales,EMEA,Alex Brown,Closed,5,8,No,5,No,No,50.77,Portal
+T00901,2025-09-10,2025-09-10,Medium,Security,Malware Alert,Sales,Americas,Sarah Lee,Closed,11,16,No,4,No,No,96.7,Email
+T00902,2025-01-06,2025-01-06,Low,Hardware,Keyboard Issue,Finance,APAC,Emma Davis,Closed,3,8,No,5,No,No,82.65,Portal
+T00903,2025-10-03,2025-10-03,Critical,Software,CRM Error,Sales,APAC,David Kumar,Closed,12,12,No,4,No,No,318.89,Chat
+T00904,2025-05-19,2025-05-19,Medium,Network,Firewall Issue,Finance,EMEA,Michael Chen,Closed,12,16,No,4,No,No,339.98,Chat
+T00905,2025-11-23,2025-11-23,Medium,Software,Application Crash,Sales,EMEA,Sophia Wilson,Closed,4,16,No,5,No,No,56.39,Portal
+T00906,2025-06-01,2025-06-01,High,Hardware,Docking Station,Finance,Americas,Sarah Lee,Closed,18,24,No,5,Yes,No,616.28,Email
+T00907,2025-04-19,2025-04-19,Low,Network,Firewall Issue,Sales,APAC,Priya Nair,Closed,8,8,No,4,No,No,228.27,Portal
+T00908,2025-12-29,2025-12-29,Medium,Network,VPN Issue,Finance,EMEA,Alex Brown,Closed,9,16,No,5,No,No,308.94,Phone
+T00909,2025-07-24,2025-07-24,Low,Hardware,Keyboard Issue,Finance,EMEA,Sarah Lee,Closed,8,8,No,4,No,No,224.93,Phone
+T00910,2025-01-09,2025-01-10,High,Network,DNS Issue,IT,Americas,Sophia Wilson,Closed,30,24,Yes,2,No,No,335.84,Email
+T00911,2025-07-01,2025-07-01,Medium,Network,Firewall Issue,IT,EMEA,Priya Nair,Closed,4,16,No,4,No,No,42.56,Chat
+T00912,2025-08-05,2025-08-05,Low,Network,Firewall Issue,Operations,EMEA,Sophia Wilson,Closed,7,8,No,5,No,No,154.02,Email
+T00913,2025-12-15,2025-12-15,Low,Network,VPN Issue,Operations,EMEA,Emma Davis,Closed,7,8,No,4,No,No,68.45,Email
+T00914,2025-05-22,2025-05-22,Low,Cloud,Kubernetes Failure,IT,APAC,Emma Davis,Closed,8,8,No,5,No,No,222.53,Portal
+T00915,2025-09-11,2025-09-11,Low,Network,DNS Issue,HR,APAC,Michael Chen,Closed,3,8,No,5,No,No,64.76,Chat
+T00916,2025-06-06,2025-06-06,High,Network,WiFi Outage,HR,APAC,Michael Chen,Closed,7,24,No,5,No,No,226.08,Phone
+T00917,2025-01-07,2025-01-08,Medium,Security,Malware Alert,Finance,Americas,John Smith,Closed,35,16,Yes,2,No,No,1196.22,Email
+T00918,2025-09-08,2025-09-09,High,Security,Phishing Email,HR,Americas,David Kumar,Closed,25,24,Yes,2,Yes,Yes,709.62,Email
+T00919,2025-02-21,2025-02-21,Low,Hardware,Keyboard Issue,IT,EMEA,Priya Nair,Closed,3,8,No,5,No,No,61.16,Portal
+T00920,2025-06-04,2025-06-04,High,Cloud,Kubernetes Failure,Sales,Americas,John Smith,Closed,22,24,No,4,Yes,No,757.31,Phone
+T00921,2025-12-04,2025-12-04,Critical,Hardware,Keyboard Issue,Sales,APAC,Sarah Lee,Closed,18,12,Yes,4,Yes,No,454.42,Portal
+T00922,2025-11-17,2025-11-17,Medium,Security,Unauthorized Access,Sales,EMEA,Alex Brown,Closed,16,16,No,5,No,No,382.51,Portal
+T00923,2025-06-08,2025-06-08,Low,Cloud,Database Outage,Operations,EMEA,David Kumar,Closed,8,8,No,5,No,No,87.8,Email
+T00924,2025-09-13,2025-09-13,Critical,Network,Firewall Issue,Operations,EMEA,Michael Chen,Closed,8,12,No,5,No,No,169.15,Email
+T00925,2025-05-31,2025-05-31,Low,Software,Teams Login Error,IT,EMEA,John Smith,Closed,6,8,No,4,No,No,117.71,Email
+T00926,2025-01-26,2025-01-26,Low,Hardware,Laptop Performance,HR,Americas,David Kumar,Closed,12,8,Yes,3,No,Yes,418.68,Phone
+T00927,2025-08-10,2025-08-10,Medium,Software,CRM Error,Finance,Americas,Alex Brown,Closed,16,16,No,5,No,No,310.55,Email
+T00928,2025-05-14,2025-05-14,Critical,Cloud,Database Outage,Operations,EMEA,Priya Nair,Closed,17,12,Yes,3,Yes,Yes,250.76,Chat
+T00929,2025-10-11,2025-10-11,Low,Hardware,Printer Issue,Operations,APAC,Alex Brown,Closed,4,8,No,5,No,No,116.5,Chat
+T00930,2025-02-19,2025-02-19,Low,Security,Malware Alert,IT,EMEA,Alex Brown,Closed,15,8,Yes,3,No,No,290.3,Chat
+T00931,2025-08-25,2025-08-25,Low,Cloud,Azure VM Failure,Operations,EMEA,Emma Davis,Closed,11,8,Yes,3,No,No,125.8,Portal
+T00932,2025-01-28,2025-01-28,High,Security,Unauthorized Access,HR,EMEA,Sophia Wilson,Closed,18,24,No,5,Yes,No,185.14,Portal
+T00933,2025-11-29,2025-11-29,Low,Cloud,Azure VM Failure,HR,APAC,John Smith,Closed,9,8,Yes,3,No,Yes,197.45,Chat
+T00934,2025-03-11,2025-03-11,Low,Network,DNS Issue,HR,EMEA,Emma Davis,Closed,2,8,No,5,No,No,22.19,Email
+T00935,2025-03-20,2025-03-20,Medium,Software,Application Crash,HR,Americas,Sophia Wilson,Closed,18,16,Yes,4,No,No,171.05,Email
+T00936,2025-06-03,2025-06-03,Medium,Network,WiFi Outage,Operations,Americas,Sophia Wilson,Closed,17,16,Yes,3,No,Yes,334.45,Email
+T00937,2025-04-05,2025-04-05,Low,Network,WiFi Outage,IT,EMEA,David Kumar,Closed,1,8,No,5,No,No,15.82,Email
+T00938,2025-10-29,2025-10-29,Medium,Hardware,Keyboard Issue,HR,EMEA,Alex Brown,Closed,13,16,No,5,No,No,389.54,Phone
+T00939,2025-01-15,2025-01-15,Low,Software,Application Crash,Operations,EMEA,John Smith,Closed,3,8,No,4,No,No,97.56,Portal
+T00940,2025-03-13,2025-03-13,Medium,Security,Malware Alert,Finance,EMEA,Emma Davis,Closed,21,16,Yes,2,No,No,679.75,Chat
+T00941,2025-09-20,2025-09-20,Low,Network,DNS Issue,Finance,EMEA,David Kumar,Closed,4,8,No,5,No,No,131.74,Email
+T00942,2025-11-27,2025-11-27,Medium,Security,Unauthorized Access,Finance,Americas,Priya Nair,Closed,5,16,No,5,No,No,119.5,Portal
+T00943,2025-10-27,2025-10-28,Medium,Security,Phishing Email,Finance,APAC,Sarah Lee,Closed,29,16,Yes,3,No,No,963.51,Chat
+T00944,2025-06-15,2025-06-16,High,Network,VPN Issue,IT,EMEA,Sarah Lee,Closed,28,24,Yes,3,Yes,No,310.54,Email
+T00945,2025-08-15,2025-08-16,High,Cloud,Azure VM Failure,IT,APAC,Emma Davis,Closed,30,24,Yes,4,Yes,No,637.79,Portal
+T00946,2025-04-26,2025-04-26,Low,Network,Firewall Issue,HR,Americas,John Smith,Closed,5,8,No,5,No,No,124.93,Email
+T00947,2025-04-15,2025-04-15,Low,Network,VPN Issue,Sales,APAC,Sophia Wilson,Closed,4,8,No,4,No,No,52.53,Phone
+T00948,2025-10-20,2025-10-21,High,Cloud,Database Outage,Operations,Americas,Michael Chen,Closed,31,24,Yes,3,Yes,No,605.83,Chat
+T00949,2025-02-06,2025-02-06,Medium,Network,DNS Issue,Operations,Americas,Priya Nair,Closed,21,16,Yes,2,No,Yes,295.02,Portal
+T00950,2025-05-09,2025-05-09,Medium,Hardware,Printer Issue,Sales,APAC,Emma Davis,Closed,19,16,Yes,3,No,No,356.8,Email
+T00951,2025-10-07,2025-10-07,Medium,Software,Application Crash,HR,APAC,Priya Nair,Closed,1,16,No,5,No,No,19.38,Phone
+T00952,2025-06-21,2025-06-22,High,Software,Teams Login Error,Operations,Americas,Priya Nair,Closed,26,24,Yes,3,Yes,Yes,554.48,Email
+T00953,2025-06-27,2025-06-27,Critical,Security,Phishing Email,Sales,Americas,John Smith,Closed,16,12,Yes,3,Yes,Yes,342.53,Phone
+T00954,2025-11-29,2025-11-29,Medium,Security,Malware Alert,HR,APAC,John Smith,Closed,8,16,No,5,No,No,231.1,Phone
+T00955,2025-10-01,2025-10-01,Medium,Security,Phishing Email,Finance,EMEA,Alex Brown,Closed,11,16,No,5,No,No,251.21,Email
+T00956,2025-08-13,2025-08-13,Low,Cloud,Database Outage,Finance,EMEA,Alex Brown,Closed,6,8,No,5,No,No,196.73,Phone
+T00957,2025-04-29,2025-04-29,Low,Software,Teams Login Error,HR,Americas,Emma Davis,Closed,1,8,No,4,No,No,29.94,Email
+T00958,2025-01-30,2025-01-30,Low,Network,DNS Issue,Sales,EMEA,Emma Davis,Closed,10,8,Yes,2,No,No,115.02,Chat
+T00959,2025-09-03,2025-09-03,Medium,Software,Password Reset,Sales,APAC,Sophia Wilson,Closed,14,16,No,5,No,No,381.56,Portal
+T00960,2025-10-10,2025-10-10,Low,Network,DNS Issue,Operations,Americas,Sarah Lee,Closed,12,8,Yes,3,No,Yes,208.31,Chat
+T00961,2025-12-28,2025-12-28,Critical,Security,Malware Alert,Sales,Americas,Emma Davis,Closed,22,12,Yes,3,Yes,No,606.6,Phone
+T00962,2025-01-19,2025-01-19,Critical,Security,Data Leakage Alert,HR,EMEA,John Smith,Closed,17,12,Yes,2,No,No,406.0,Portal
+T00963,2025-02-13,2025-02-13,Low,Cloud,Kubernetes Failure,IT,APAC,Emma Davis,Closed,1,8,No,5,No,No,13.55,Phone
+T00964,2025-12-04,2025-12-04,Medium,Software,CRM Error,Operations,EMEA,John Smith,Closed,14,16,No,4,No,No,456.0,Portal
+T00965,2025-05-15,2025-05-15,High,Cloud,AWS Storage Failure,IT,Americas,John Smith,Closed,22,24,No,5,Yes,No,504.66,Portal
+T00966,2025-10-01,2025-10-01,Medium,Cloud,Database Outage,IT,EMEA,Emma Davis,Closed,7,16,No,5,No,No,80.92,Email
+T00967,2025-05-24,2025-05-25,High,Hardware,Printer Issue,Sales,Americas,Alex Brown,Closed,42,24,Yes,3,Yes,No,746.16,Portal
+T00968,2025-12-01,2025-12-01,High,Cloud,Azure VM Failure,Sales,Americas,Priya Nair,Closed,21,24,No,4,No,No,648.59,Chat
+T00969,2025-08-25,2025-08-25,Low,Software,Office 365 Error,IT,APAC,Sarah Lee,Closed,10,8,Yes,3,No,No,322.2,Portal
+T00970,2025-02-02,2025-02-02,Medium,Hardware,Laptop Performance,IT,APAC,Emma Davis,Closed,16,16,No,5,No,No,400.31,Phone
+T00971,2025-11-13,2025-11-13,Medium,Network,VPN Issue,Operations,EMEA,John Smith,Closed,11,16,No,5,No,No,252.36,Phone
+T00972,2025-02-01,2025-02-01,Critical,Hardware,Laptop Performance,Sales,Americas,John Smith,Closed,7,12,No,4,Yes,No,122.1,Email
+T00973,2025-09-17,2025-09-17,Medium,Cloud,Azure VM Failure,IT,APAC,Alex Brown,Closed,14,16,No,5,No,No,443.07,Phone
+T00974,2025-01-13,2025-01-13,Low,Hardware,Laptop Performance,Sales,EMEA,David Kumar,Closed,10,8,Yes,4,No,Yes,123.28,Email
+T00975,2025-05-29,2025-05-29,Critical,Cloud,Azure VM Failure,Operations,Americas,Priya Nair,Closed,14,12,Yes,3,Yes,No,426.01,Email
+T00976,2025-12-03,2025-12-04,High,Security,Phishing Email,Finance,Americas,Alex Brown,Closed,26,24,Yes,2,Yes,Yes,634.19,Chat
+T00977,2025-06-12,2025-06-12,Low,Cloud,Database Outage,Finance,EMEA,Priya Nair,Closed,10,8,Yes,3,No,Yes,267.13,Chat
+T00978,2025-07-29,2025-07-29,Medium,Hardware,Docking Station,Sales,Americas,Sophia Wilson,Closed,10,16,No,4,No,No,243.41,Chat
+T00979,2025-08-03,2025-08-03,Low,Network,WiFi Outage,Operations,EMEA,David Kumar,Closed,7,8,No,5,No,No,120.56,Email
+T00980,2025-02-11,2025-02-11,Medium,Cloud,AWS Storage Failure,Finance,APAC,Sophia Wilson,Closed,6,16,No,5,No,No,50.51,Email
+T00981,2025-08-03,2025-08-03,Low,Cloud,Kubernetes Failure,IT,APAC,Michael Chen,Closed,7,8,No,4,No,No,243.1,Phone
+T00982,2025-09-21,2025-09-21,High,Security,Data Leakage Alert,Finance,EMEA,Emma Davis,Closed,15,24,No,5,No,No,168.21,Portal
+T00983,2025-10-30,2025-10-31,Medium,Software,Password Reset,IT,Americas,Sophia Wilson,Closed,30,16,Yes,4,No,No,474.33,Chat
+T00984,2025-12-25,2025-12-25,Low,Network,VPN Issue,HR,Americas,Priya Nair,Closed,11,8,Yes,3,No,No,200.67,Chat
+T00985,2025-04-01,2025-04-01,Medium,Cloud,Database Outage,IT,EMEA,John Smith,Closed,17,16,Yes,3,No,No,266.93,Chat
+T00986,2025-06-13,2025-06-13,High,Network,VPN Issue,IT,Americas,David Kumar,Closed,19,24,No,5,No,No,203.03,Portal
+T00987,2025-03-26,2025-03-26,Low,Hardware,Keyboard Issue,Sales,Americas,Sarah Lee,Closed,1,8,No,5,No,No,32.96,Portal
+T00988,2025-03-14,2025-03-14,Low,Cloud,AWS Storage Failure,Operations,APAC,Emma Davis,Closed,10,8,Yes,2,No,Yes,211.86,Email
+T00989,2025-07-09,2025-07-09,Low,Cloud,Kubernetes Failure,Sales,APAC,Sarah Lee,Closed,6,8,No,5,No,No,119.99,Chat
+T00990,2025-09-10,2025-09-10,Low,Network,DNS Issue,Sales,APAC,Emma Davis,Closed,2,8,No,4,No,No,55.28,Portal
+T00991,2025-03-22,2025-03-22,Medium,Hardware,Keyboard Issue,Sales,APAC,Alex Brown,Closed,7,16,No,4,No,No,74.98,Portal
+T00992,2025-04-08,2025-04-08,High,Software,Password Reset,Finance,Americas,Alex Brown,Closed,11,24,No,5,Yes,No,287.98,Portal
+T00993,2025-08-29,2025-08-29,Low,Network,Firewall Issue,Operations,Americas,Emma Davis,Closed,6,8,No,4,No,No,48.52,Email
+T00994,2025-09-09,2025-09-09,Medium,Network,WiFi Outage,IT,Americas,David Kumar,Closed,19,16,Yes,2,No,No,475.72,Phone
+T00995,2025-11-23,2025-11-23,Low,Cloud,AWS Storage Failure,IT,EMEA,Alex Brown,Closed,12,8,Yes,3,No,No,272.07,Portal
+T00996,2025-02-19,2025-02-19,Low,Hardware,Keyboard Issue,Sales,APAC,Alex Brown,Closed,1,8,No,5,No,No,11.13,Chat
+T00997,2025-06-13,2025-06-13,Medium,Hardware,Keyboard Issue,IT,Americas,Alex Brown,Closed,10,16,No,5,No,No,265.55,Email
+T00998,2025-05-29,2025-05-29,Low,Network,Firewall Issue,Operations,EMEA,David Kumar,Closed,1,8,No,4,No,No,26.22,Chat
+T00999,2025-07-20,2025-07-20,High,Security,Data Leakage Alert,Finance,EMEA,John Smith,Closed,21,24,No,5,No,No,421.81,Phone
+T01000,2025-10-21,2025-10-22,High,Cloud,AWS Storage Failure,Operations,Americas,Priya Nair,Closed,25,24,Yes,2,Yes,Yes,841.44,Email
